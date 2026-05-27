@@ -7,6 +7,46 @@ The current public package focuses on two workflows:
 1. Deterministic verifier validation using a USDA-derived 55-food candidate dataset and 90 structured test scenarios.
 2. Multi-LLM audit replay using saved Kimi and DeepSeek outputs, with optional live API re-run when API keys are configured locally.
 
+The Streamlit app is a reproducibility dashboard. It is designed to inspect prepared data, saved experiment outputs, verifier logic, and re-run commands. It does not automatically re-run every experiment on page load. Deterministic experiments can be re-run from the command line, while live LLM and Neo4j checks require local credentials and should be launched intentionally.
+
+## Dashboard Preview
+
+### System Overview
+
+The overview page summarizes the end-to-end workflow: disease-only recommendation inputs, food mapping, guideline-derived constraints, knowledge graph verification, and audit outputs.
+
+![System overview dashboard](docs/screenshots/01_system_overview.png)
+
+### Data and Knowledge Base
+
+The data page shows the USDA-derived 55-food candidate table, food source mapping, nutrient constraints, and guideline source records used by the verifier.
+
+![Data and knowledge base dashboard](docs/screenshots/02_data_knowledge_base.png)
+
+### Knowledge Graph Explorer
+
+The graph explorer presents how foods, nutrients, diseases, risk factors, guideline-derived constraints, and evidence sources are connected in the executable knowledge structure.
+
+![Knowledge graph explorer dashboard](docs/screenshots/03_knowledge_graph_explorer.png)
+
+### Verifier Validation
+
+The verifier validation page displays the deterministic 90-scenario benchmark, including full-verifier findings, baseline comparisons, and expected comorbidity conflict detection.
+
+![Verifier validation dashboard](docs/screenshots/04_verifier_validation.png)
+
+### Multi-LLM Audit
+
+The multi-LLM audit page summarizes saved Kimi and DeepSeek recommendation outputs, hard safety issues, soft target misses, parsing success, and repeated-generation variability.
+
+![Multi-LLM audit dashboard](docs/screenshots/05_multi_llm_audit.png)
+
+### Reproducibility
+
+The reproducibility page links the dashboard views to local data files, saved result artifacts, and command-line scripts for rerunning deterministic checks.
+
+![Reproducibility dashboard](docs/screenshots/06_reproducibility.png)
+
 ## Repository Structure
 
 ```text
@@ -15,6 +55,7 @@ data_usda_55/            USDA-derived 55-food candidate dataset and source mappi
 data_v2/                 Guideline constraints, guideline source records, and legacy small CSVs
 results_usda_55/         Deterministic verifier validation results
 results_v2/              Saved multi-LLM pilot outputs and metrics
+docs/screenshots/        Dashboard screenshots for quick review
 STREAMLIT_V3_DASHBOARD_GUIDE.md
 requirements.txt
 .env.example
@@ -81,13 +122,14 @@ This step requires a running Neo4j database and a local `.env` file with `NEO4J_
 
 ## Dashboard
 
-The Streamlit dashboard contains five pages:
+The Streamlit dashboard contains six pages:
 
-1. Data & Knowledge Base
-2. Knowledge Graph Explorer
-3. Verifier Validation
-4. Multi-LLM Audit
-5. Reproducibility
+1. System Overview
+2. Data & Knowledge Base
+3. Knowledge Graph Explorer
+4. Verifier Validation
+5. Multi-LLM Audit
+6. Reproducibility
 
 See `STREAMLIT_V3_DASHBOARD_GUIDE.md` for a manual testing walkthrough.
 
