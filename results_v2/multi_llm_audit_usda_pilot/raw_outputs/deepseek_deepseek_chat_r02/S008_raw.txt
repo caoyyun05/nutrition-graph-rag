@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Egg", "servings": 2},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Almonds", "servings": 0.5}
+  ],
+  "rationale": "Low in carbohydrates and high in fiber to help manage blood glucose levels in T2DM."
+}

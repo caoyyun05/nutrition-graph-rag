@@ -1,0 +1,1072 @@
+{
+  "metadata": {
+    "runner": "run_real_llm_baseline",
+    "dry_run": false,
+    "replay_raw_dir": null,
+    "llm": {
+      "provider": "kimi",
+      "model": "moonshot-v1-8k",
+      "base_url": "https://api.moonshot.cn/v1",
+      "temperature": 0.7,
+      "max_tokens": 700,
+      "api_key_present": true
+    },
+    "food_count": 55,
+    "constraint_count": 11,
+    "scenario_count": 10,
+    "foods_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_usda_55\\foods_usda_55.csv",
+    "constraints_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_v2\\nutrient_constraints.csv",
+    "scenarios_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_usda_55\\test_scenarios_usda_90.csv",
+    "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01",
+    "note": "Raw LLM outputs are extracted into local RecommendedFood objects and then evaluated by baseline and verifier adapters."
+  },
+  "aggregate": {
+    "completed_count": 10,
+    "dry_run_count": 0,
+    "average_extracted_food_count": 4.8,
+    "zero_extraction_count": 0,
+    "unmatched_item_count": 0,
+    "guideline_problem_count": 9,
+    "guideline_problem_rate": 0.9,
+    "hard_safety_issue_count": 4,
+    "hard_safety_issue_rate": 0.4,
+    "soft_target_miss_count": 7,
+    "soft_target_miss_rate": 0.7,
+    "boolean_problem_count": 5,
+    "boolean_problem_rate": 0.5
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S001",
+      "name": "HTN only high potassium target [USDA candidate]",
+      "diseases": [
+        "HTN"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S001_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S001_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Banana\", \"servings\": 2},\n    {\"name\": \"Spinach\", \"servings\": 1},\n    {\"name\": \"Avocado\", \"servings\": 0.5},\n    {\"name\": \"Black beans cooked\", \"servings\": 1},\n    {\"name\": \"Sweet potato baked\", \"servings\": 1}\n  ],\n  \"rationale\": \"The selected foods are high in potassium to help manage HTN without added risks.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Avocado",
+            "servings": 0.5
+          },
+          {
+            "name": "Banana",
+            "servings": 2.0
+          },
+          {
+            "name": "Black beans cooked",
+            "servings": 1.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 1.0
+          },
+          {
+            "name": "Sweet potato baked",
+            "servings": 1.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "flagged_food_count": 0,
+          "flagged_foods": [],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 1,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 1,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 3,
+          "violated_nutrients": [
+            "potassium_mg"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ACC/AHA 2017 Hypertension Guidelines"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S002",
+      "name": "HTN plus CKD hyperkalemia risk [USDA candidate]",
+      "diseases": [
+        "HTN",
+        "CKD"
+      ],
+      "risk_factors": [
+        "hyperkalemia_risk"
+      ],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S002_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S002_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Oatmeal\", \"servings\": 1.5},\n    {\"name\": \"Potato baked\", \"servings\": 1},\n    {\"name\": \"Quinoa cooked\", \"servings\": 1},\n    {\"name\": \"Spinach\", \"servings\": 2},\n    {\"name\": \"Chicken breast\", \"servings\": 3}\n  ],\n  \"rationale\": \"Balanced for both HTN and CKD without high potassium foods.\"\n}",
+      "expected_conflict_nutrient": "potassium_mg",
+      "expected_conflict_detected": true,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Chicken breast",
+            "servings": 3.0
+          },
+          {
+            "name": "Oatmeal",
+            "servings": 1.5
+          },
+          {
+            "name": "Potato baked",
+            "servings": 1.0
+          },
+          {
+            "name": "Quinoa cooked",
+            "servings": 1.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 2.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": false,
+          "deterministic_verification": false,
+          "detected_problem": true,
+          "flagged_food_count": 3,
+          "flagged_foods": [
+            {
+              "food": "Potato baked",
+              "category": "vegetable",
+              "reason": "htn_high_sodium_food"
+            },
+            {
+              "food": "Potato baked",
+              "category": "vegetable",
+              "reason": "ckd_high_potassium_food"
+            },
+            {
+              "food": "Spinach",
+              "category": "vegetable",
+              "reason": "ckd_high_potassium_food"
+            }
+          ],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 2,
+          "hard_violation_count": 1,
+          "soft_target_miss_count": 1,
+          "conflict_count": 1,
+          "has_hard_safety_issue": true,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 5,
+          "violated_nutrients": [
+            "potassium_mg"
+          ],
+          "conflict_nutrients": [
+            "potassium_mg"
+          ],
+          "evidence_sources": [
+            "ACC/AHA 2017 Hypertension Guidelines",
+            "KDIGO 2024 CKD Guidelines / KDOQI 2020 Nutrition Guidelines"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S003",
+      "name": "T2DM low fiber and carbohydrate [USDA candidate]",
+      "diseases": [
+        "T2DM"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S003_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S003_raw.txt",
+      "raw_output": "```json\n{\n  \"recommended_foods\": [\n    {\"name\": \"Brown rice\", \"servings\": 2},\n    {\"name\": \"Lean beef\", \"servings\": 1},\n    {\"name\": \"Broccoli\", \"servings\": 1.5},\n    {\"name\": \"Black beans cooked\", \"servings\": 1},\n    {\"name\": \"Low-fat yogurt\", \"servings\": 1}\n  ],\n  \"rationale\": \"This combination provides a balanced intake of fibers and carbohydrates suitable for a T2DM patient.\"\n}\n```",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Black beans cooked",
+            "servings": 1.0
+          },
+          {
+            "name": "Broccoli",
+            "servings": 1.5
+          },
+          {
+            "name": "Brown rice",
+            "servings": 2.0
+          },
+          {
+            "name": "Lean beef",
+            "servings": 1.0
+          },
+          {
+            "name": "Low-fat yogurt",
+            "servings": 1.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "flagged_food_count": 0,
+          "flagged_foods": [],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 2,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 2,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 4,
+          "violated_nutrients": [
+            "carbohydrate_g",
+            "fiber_g"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ADA Standards of Care in Diabetes 2024",
+            "National Academies Dietary Reference Intakes / ADA Standards of Care in Diabetes 2024"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S004",
+      "name": "CKD sodium violation [USDA candidate]",
+      "diseases": [
+        "CKD"
+      ],
+      "risk_factors": [
+        "hyperkalemia_risk"
+      ],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S004_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S004_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Banana\", \"servings\": 1},\n    {\"name\": \"Broccoli\", \"servings\": 1},\n    {\"name\": \"Chicken breast\", \"servings\": 3},\n    {\"name\": \"Whole wheat pasta\", \"servings\": 2},\n    {\"name\": \"Lentils cooked\", \"servings\": 1}\n  ],\n  \"rationale\": \"Providing a balanced combination of fruits, vegetables, lean protein, and complex carbohydrates suitable for CKD patients with hyperkalemia risk.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Banana",
+            "servings": 1.0
+          },
+          {
+            "name": "Broccoli",
+            "servings": 1.0
+          },
+          {
+            "name": "Chicken breast",
+            "servings": 3.0
+          },
+          {
+            "name": "Lentils cooked",
+            "servings": 1.0
+          },
+          {
+            "name": "Whole wheat pasta",
+            "servings": 2.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": false,
+          "deterministic_verification": false,
+          "detected_problem": true,
+          "flagged_food_count": 1,
+          "flagged_foods": [
+            {
+              "food": "Banana",
+              "category": "fruit",
+              "reason": "ckd_high_potassium_food"
+            }
+          ],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 1,
+          "hard_violation_count": 1,
+          "soft_target_miss_count": 0,
+          "conflict_count": 0,
+          "has_hard_safety_issue": true,
+          "has_soft_target_miss": false,
+          "missing_data_count": 0,
+          "active_constraint_count": 2,
+          "violated_nutrients": [
+            "potassium_mg"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "KDIGO 2024 CKD Guidelines / KDOQI 2020 Nutrition Guidelines"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S005",
+      "name": "HTN high sodium and low potassium violation [USDA candidate]",
+      "diseases": [
+        "HTN"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S005_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S005_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Banana\", \"servings\": 1},\n    {\"name\": \"Spinach\", \"servings\": 1},\n    {\"name\": \"Potato baked\", \"servings\": 2},\n    {\"name\": \"Chicken breast\", \"servings\": 3},\n    {\"name\": \"Orange\", \"servings\": 1.5}\n  ],\n  \"rationale\": \"To maintain a balanced diet while controlling high sodium and low potassium levels.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Banana",
+            "servings": 1.0
+          },
+          {
+            "name": "Chicken breast",
+            "servings": 3.0
+          },
+          {
+            "name": "Orange",
+            "servings": 1.5
+          },
+          {
+            "name": "Potato baked",
+            "servings": 2.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 1.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": false,
+          "deterministic_verification": false,
+          "detected_problem": true,
+          "flagged_food_count": 1,
+          "flagged_foods": [
+            {
+              "food": "Potato baked",
+              "category": "vegetable",
+              "reason": "htn_high_sodium_food"
+            }
+          ],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": true,
+          "deterministic_verification": true,
+          "detected_problem": false,
+          "violation_count": 0,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 0,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": false,
+          "missing_data_count": 0,
+          "active_constraint_count": 3,
+          "violated_nutrients": [],
+          "conflict_nutrients": [],
+          "evidence_sources": []
+        }
+      }
+    },
+    {
+      "scenario_id": "S006",
+      "name": "HTN plus CKD without hyperkalemia risk [USDA candidate]",
+      "diseases": [
+        "HTN",
+        "CKD"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S006_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S006_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Oatmeal\", \"servings\": 1},\n    {\"name\": \"Banana\", \"servings\": 1},\n    {\"name\": \"Spinach\", \"servings\": 2},\n    {\"name\": \"Chicken breast\", \"servings\": 3}\n  ],\n  \"rationale\": \"This meal plan focuses on foods that are low in sodium and high in potassium for HTN and CKD without hyperkalemia.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Banana",
+            "servings": 1.0
+          },
+          {
+            "name": "Chicken breast",
+            "servings": 3.0
+          },
+          {
+            "name": "Oatmeal",
+            "servings": 1.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 2.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 4,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "flagged_food_count": 0,
+          "flagged_foods": [],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 1,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 1,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 4,
+          "violated_nutrients": [
+            "potassium_mg"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ACC/AHA 2017 Hypertension Guidelines"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S007",
+      "name": "CKD phosphorus risk violation [USDA candidate]",
+      "diseases": [
+        "CKD"
+      ],
+      "risk_factors": [
+        "hyperphosphatemia_risk"
+      ],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S007_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S007_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Quinoa cooked\", \"servings\": 1},\n    {\"name\": \"Broccoli\", \"servings\": 1.5},\n    {\"name\": \"Salmon\", \"servings\": 2},\n    {\"name\": \"Apple\", \"servings\": 1},\n    {\"name\": \"White rice\", \"servings\": 0.5}\n  ],\n  \"rationale\": \"Provided balanced nutrients, omitting high-phosphorus foods like dairy and meat.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Apple",
+            "servings": 1.0
+          },
+          {
+            "name": "Broccoli",
+            "servings": 1.5
+          },
+          {
+            "name": "Quinoa cooked",
+            "servings": 1.0
+          },
+          {
+            "name": "Salmon",
+            "servings": 2.0
+          },
+          {
+            "name": "White rice",
+            "servings": 0.5
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": false,
+          "deterministic_verification": false,
+          "detected_problem": true,
+          "flagged_food_count": 2,
+          "flagged_foods": [
+            {
+              "food": "Quinoa cooked",
+              "category": "grain",
+              "reason": "ckd_high_phosphorus_food"
+            },
+            {
+              "food": "Salmon",
+              "category": "protein",
+              "reason": "ckd_high_phosphorus_food"
+            }
+          ],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 1,
+          "hard_violation_count": 1,
+          "soft_target_miss_count": 0,
+          "conflict_count": 0,
+          "has_hard_safety_issue": true,
+          "has_soft_target_miss": false,
+          "missing_data_count": 0,
+          "active_constraint_count": 2,
+          "violated_nutrients": [
+            "phosphorus_mg"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "KDOQI 2020 Nutrition Guidelines"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S008",
+      "name": "T2DM low fiber and carbohydrate test [USDA candidate]",
+      "diseases": [
+        "T2DM"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S008_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S008_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Oatmeal\", \"servings\": 1},\n    {\"name\": \"Almonds\", \"servings\": 1},\n    {\"name\": \"Broccoli\", \"servings\": 1},\n    {\"name\": \"Salmon\", \"servings\": 3}\n  ],\n  \"rationale\": \"To create a balanced diet with low to moderate fiber and carbohydrate foods for a T2DM patient.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Almonds",
+            "servings": 1.0
+          },
+          {
+            "name": "Broccoli",
+            "servings": 1.0
+          },
+          {
+            "name": "Oatmeal",
+            "servings": 1.0
+          },
+          {
+            "name": "Salmon",
+            "servings": 3.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 4,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "flagged_food_count": 0,
+          "flagged_foods": [],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 2,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 2,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 4,
+          "violated_nutrients": [
+            "carbohydrate_g",
+            "fiber_g"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ADA Standards of Care in Diabetes 2024",
+            "National Academies Dietary Reference Intakes / ADA Standards of Care in Diabetes 2024"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S009",
+      "name": "HTN dinner sodium allocation violation [USDA candidate]",
+      "diseases": [
+        "HTN"
+      ],
+      "risk_factors": [],
+      "meal_type": "dinner",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S009_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S009_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Baked Potato\", \"servings\": 1},\n    {\"name\": \"Spinach\", \"servings\": 1},\n    {\"name\": \"Chicken Breast\", \"servings\": 3},\n    {\"name\": \"Orange\", \"servings\": 1},\n    {\"name\": \"Brown Rice\", \"servings\": 1}\n  ],\n  \"rationale\": \"The selection promotes a low sodium intake for HTN patients.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Brown rice",
+            "servings": 1.0
+          },
+          {
+            "name": "Chicken breast",
+            "servings": 3.0
+          },
+          {
+            "name": "Orange",
+            "servings": 1.0
+          },
+          {
+            "name": "Potato baked",
+            "servings": 1.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 1.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": false,
+          "deterministic_verification": false,
+          "detected_problem": true,
+          "flagged_food_count": 1,
+          "flagged_foods": [
+            {
+              "food": "Potato baked",
+              "category": "vegetable",
+              "reason": "htn_high_sodium_food"
+            }
+          ],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 2,
+          "hard_violation_count": 1,
+          "soft_target_miss_count": 1,
+          "conflict_count": 0,
+          "has_hard_safety_issue": true,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 3,
+          "violated_nutrients": [
+            "potassium_mg",
+            "sodium_mg"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ACC/AHA 2017 Hypertension Guidelines",
+            "ACC/AHA 2017 Hypertension Guidelines / AHA sodium guidance"
+          ]
+        }
+      }
+    },
+    {
+      "scenario_id": "S010",
+      "name": "T2DM target-range pass [USDA candidate]",
+      "diseases": [
+        "T2DM"
+      ],
+      "risk_factors": [],
+      "meal_type": "full_day",
+      "status": "completed",
+      "prompt_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S010_prompt.txt",
+      "raw_output_path": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01\\S010_raw.txt",
+      "raw_output": "{\n  \"recommended_foods\": [\n    {\"name\": \"Oatmeal\", \"servings\": 1},\n    {\"name\": \"Spinach\", \"servings\": 2},\n    {\"name\": \"Chicken breast\", \"servings\": 1.5},\n    {\"name\": \"Sweet potato baked\", \"servings\": 1},\n    {\"name\": \"Apple\", \"servings\": 1}\n  ],\n  \"rationale\": \"Balanced protein, fiber, and carbohydrates with emphasis on whole foods.\"\n}",
+      "expected_conflict_nutrient": "",
+      "expected_conflict_detected": false,
+      "extraction": {
+        "recommended_foods": [
+          {
+            "name": "Apple",
+            "servings": 1.0
+          },
+          {
+            "name": "Chicken breast",
+            "servings": 1.5
+          },
+          {
+            "name": "Oatmeal",
+            "servings": 1.0
+          },
+          {
+            "name": "Spinach",
+            "servings": 2.0
+          },
+          {
+            "name": "Sweet potato baked",
+            "servings": 1.0
+          }
+        ],
+        "unmatched_items": [],
+        "extraction_method": "json"
+      },
+      "methods": {
+        "pure_llm": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "food_count": 5,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_comorbidity_conflict_check",
+            "no_evidence_traceability"
+          ]
+        },
+        "pure_kg": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "missing_food_count": 0,
+          "missing_nutrient_record_count": 0,
+          "limitations": [
+            "no_nutrient_interval_check",
+            "no_meal_allocation",
+            "no_comorbidity_conflict_check"
+          ]
+        },
+        "boolean_graph_rag": {
+          "passed": true,
+          "deterministic_verification": false,
+          "detected_problem": false,
+          "flagged_food_count": 0,
+          "flagged_foods": [],
+          "limitations": [
+            "food_level_rules_only",
+            "no_serving_weighted_total_check",
+            "no_interval_intersection_conflict_check"
+          ]
+        },
+        "guideline_graph_rag": {
+          "passed": false,
+          "deterministic_verification": true,
+          "detected_problem": true,
+          "violation_count": 2,
+          "hard_violation_count": 0,
+          "soft_target_miss_count": 2,
+          "conflict_count": 0,
+          "has_hard_safety_issue": false,
+          "has_soft_target_miss": true,
+          "missing_data_count": 0,
+          "active_constraint_count": 4,
+          "violated_nutrients": [
+            "carbohydrate_g",
+            "fiber_g"
+          ],
+          "conflict_nutrients": [],
+          "evidence_sources": [
+            "ADA Standards of Care in Diabetes 2024",
+            "National Academies Dietary Reference Intakes / ADA Standards of Care in Diabetes 2024"
+          ]
+        }
+      }
+    }
+  ]
+}

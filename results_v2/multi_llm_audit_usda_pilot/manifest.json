@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "runner": "run_multi_llm_audit",
+    "dry_run": false,
+    "models": [
+      [
+        "kimi",
+        "moonshot-v1-8k"
+      ],
+      [
+        "deepseek",
+        "deepseek-chat"
+      ]
+    ],
+    "repeats": 3,
+    "limit": 10,
+    "scenario_ids": [],
+    "foods_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_usda_55\\foods_usda_55.csv",
+    "constraints_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_v2\\nutrient_constraints.csv",
+    "scenarios_csv": "D:\\claude\\study\\paper\\nutrition-graph-rag\\data_usda_55\\test_scenarios_usda_90.csv",
+    "temperature": 0.7,
+    "max_tokens": 700,
+    "sleep_seconds": 0.5
+  },
+  "runs": [
+    {
+      "run_id": "kimi_moonshot_v1_8k_r01",
+      "provider": "kimi",
+      "model": "moonshot-v1-8k",
+      "repeat": 1,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r01.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r01",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r01.json\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "kimi_moonshot_v1_8k_r02",
+      "provider": "kimi",
+      "model": "moonshot-v1-8k",
+      "repeat": 2,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r02.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r02",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r02.json\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "kimi_moonshot_v1_8k_r03",
+      "provider": "kimi",
+      "model": "moonshot-v1-8k",
+      "repeat": 3,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r03.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\kimi_moonshot_v1_8k_r03",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\kimi_moonshot_v1_8k_r03.json\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "deepseek_deepseek_chat_r01",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "repeat": 1,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r01.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\deepseek_deepseek_chat_r01",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r01.json\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "deepseek_deepseek_chat_r02",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "repeat": 2,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r02.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\deepseek_deepseek_chat_r02",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r02.json\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "deepseek_deepseek_chat_r03",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "repeat": 3,
+      "dry_run": false,
+      "returncode": 0,
+      "output_json": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r03.json",
+      "raw_output_dir": "D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\raw_outputs\\deepseek_deepseek_chat_r03",
+      "stdout": "[1/10] Calling LLM for S001\n[2/10] Calling LLM for S002\n[3/10] Calling LLM for S003\n[4/10] Calling LLM for S004\n[5/10] Calling LLM for S005\n[6/10] Calling LLM for S006\n[7/10] Calling LLM for S007\n[8/10] Calling LLM for S008\n[9/10] Calling LLM for S009\n[10/10] Calling LLM for S010\nSaved real LLM baseline results to D:\\claude\\study\\paper\\nutrition-graph-rag\\results_v2\\multi_llm_audit_usda_pilot\\deepseek_deepseek_chat_r03.json\n",
+      "stderr": ""
+    }
+  ]
+}

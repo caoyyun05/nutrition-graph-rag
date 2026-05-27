@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Avocado", "servings": 0.5}
+  ],
+  "rationale": "Low-sodium, DASH-friendly dinner with lean protein, whole grains, and vegetables to support blood pressure control."
+}

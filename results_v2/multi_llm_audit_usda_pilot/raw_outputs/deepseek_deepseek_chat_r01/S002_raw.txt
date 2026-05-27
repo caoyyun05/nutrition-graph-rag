@@ -1,0 +1,11 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Almonds", "servings": 0.5}
+  ],
+  "rationale": "This meal plan is low in potassium and sodium, suitable for HTN and CKD with hyperkalemia risk."
+}

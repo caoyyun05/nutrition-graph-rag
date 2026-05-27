@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Baked Potato", "servings": 1},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Chicken Breast", "servings": 3},
+    {"name": "Orange", "servings": 1},
+    {"name": "Brown Rice", "servings": 1}
+  ],
+  "rationale": "The selection promotes a low sodium intake for HTN patients."
+}

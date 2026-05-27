@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Quinoa cooked", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Salmon", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "Balanced for nutrients, heart health, and kidney-friendly."
+}

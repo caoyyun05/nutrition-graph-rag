@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Chicken breast", "servings": 3},
+    {"name": "Whole wheat pasta", "servings": 2},
+    {"name": "Lentils cooked", "servings": 1}
+  ],
+  "rationale": "Providing a balanced combination of fruits, vegetables, lean protein, and complex carbohydrates suitable for CKD patients with hyperkalemia risk."
+}

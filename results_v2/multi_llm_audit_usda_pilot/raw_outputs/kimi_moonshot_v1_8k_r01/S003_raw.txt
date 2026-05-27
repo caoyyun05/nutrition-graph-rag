@@ -1,0 +1,12 @@
+```json
+{
+  "recommended_foods": [
+    {"name": "Brown rice", "servings": 2},
+    {"name": "Lean beef", "servings": 1},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Black beans cooked", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "This combination provides a balanced intake of fibers and carbohydrates suitable for a T2DM patient."
+}
+```

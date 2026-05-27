@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "White rice", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "Low sodium and potassium foods to support CKD management and reduce hyperkalemia risk."
+}

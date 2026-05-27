@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Chicken breast", "servings": 2},
+    {"name": "Kale", "servings": 1},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Whole wheat pasta", "servings": 2}
+  ],
+  "rationale": "Balanced meal plan with low carbs and high fiber for T2DM management."
+}

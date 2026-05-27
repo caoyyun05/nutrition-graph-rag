@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Almonds", "servings": 1}
+  ],
+  "rationale": "A balanced day with low glycemic index carbs, lean protein, fiber, and healthy fats to support blood glucose management."
+}

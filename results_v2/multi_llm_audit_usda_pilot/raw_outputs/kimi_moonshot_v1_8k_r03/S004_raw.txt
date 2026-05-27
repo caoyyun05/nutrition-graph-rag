@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Quinoa cooked", "servings": 2},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Turkey breast", "servings": 3}
+  ],
+  "rationale": "Provides a varied diet with low sodium options for CKD patients and includes a potassium controlled meal plan."
+}

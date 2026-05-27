@@ -1,0 +1,11 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Almonds", "servings": 1}
+  ],
+  "rationale": "Low-potassium, heart-healthy foods to manage hypertension and reduce hyperkalemia risk in CKD."
+}

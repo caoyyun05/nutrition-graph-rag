@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 2},
+    {"name": "Avocado", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Black beans cooked", "servings": 1},
+    {"name": "Sweet potato baked", "servings": 1}
+  ],
+  "rationale": "High potassium foods from the list to manage HTN effectively."
+}

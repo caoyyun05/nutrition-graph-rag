@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Chicken breast", "servings": 1.5},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Apple", "servings": 1}
+  ],
+  "rationale": "Balanced protein, fiber, and carbohydrates with emphasis on whole foods."
+}

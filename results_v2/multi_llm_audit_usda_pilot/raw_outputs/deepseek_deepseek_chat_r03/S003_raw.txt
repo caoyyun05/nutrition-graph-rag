@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Almonds", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "This meal plan provides low glycemic index carbohydrates, lean protein, and healthy fats to support blood glucose control and increase fiber intake for T2DM."
+}

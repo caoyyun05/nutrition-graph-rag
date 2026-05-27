@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Quinoa cooked", "servings": 1},
+    {"name": "Salmon", "servings": 0.5},
+    {"name": "Strawberries", "servings": 1}
+  ],
+  "rationale": "Low phosphorus foods with balanced nutrients to support CKD dietary needs."
+}

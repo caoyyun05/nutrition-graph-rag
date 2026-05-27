@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 2},
+    {"name": "Kale", "servings": 1},
+    {"name": "Quinoa cooked", "servings": 1.5},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Lentils cooked", "servings": 1}
+  ],
+  "rationale": "Balanced meal plan focusing on potassium-rich foods to manage HTN."
+}

@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Brown rice", "servings": 2},
+    {"name": "Chicken breast", "servings": 2},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Orange", "servings": 1}
+  ],
+  "rationale": "This balanced diet is low in potassium and suitable for patients with HTN, CKD, and hyperkalemia risk."
+}

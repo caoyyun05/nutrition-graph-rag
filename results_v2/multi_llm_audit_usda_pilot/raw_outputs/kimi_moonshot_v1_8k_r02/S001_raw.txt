@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 2},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Edamame", "servings": 0.5}
+  ],
+  "rationale": "This diet is high in potassium which is targeted for HTN."
+}

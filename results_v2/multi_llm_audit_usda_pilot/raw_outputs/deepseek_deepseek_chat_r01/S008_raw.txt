@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Brown rice", "servings": 0.5},
+    {"name": "Almonds", "servings": 0.25},
+    {"name": "Apple", "servings": 1}
+  ],
+  "rationale": "This meal provides moderate carbohydrates with high fiber and protein to help manage blood glucose in T2DM."
+}

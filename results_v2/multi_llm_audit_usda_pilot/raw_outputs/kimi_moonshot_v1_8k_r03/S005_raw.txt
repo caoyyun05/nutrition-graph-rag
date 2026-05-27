@@ -1,0 +1,8 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Quinoa cooked", "servings": 2}
+  ],
+  "rationale": "Foods high in potassium and low in sodium for HTN management."
+}

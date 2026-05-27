@@ -1,0 +1,12 @@
+```json
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 2},
+    {"name": "Lean beef", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Romaine lettuce", "servings": 1.5},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "Balanced nutrients for T2DM control and fiber intake."
+}
+```

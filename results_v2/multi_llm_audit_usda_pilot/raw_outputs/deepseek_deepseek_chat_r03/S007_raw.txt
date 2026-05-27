@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "White rice", "servings": 1},
+    {"name": "Strawberries", "servings": 1}
+  ],
+  "rationale": "This low-phosphorus meal plan avoids high-phosphorus foods to help manage hyperphosphatemia risk in CKD."
+}

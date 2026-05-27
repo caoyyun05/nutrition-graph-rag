@@ -1,0 +1,2026 @@
+{
+  "metadata": {
+    "scenario_count": 90,
+    "mismatch_count": 0,
+    "note": "Validation compares explicit expected labels in the scenario CSV against the current guideline verifier output."
+  },
+  "mismatches": [],
+  "scenarios": [
+    {
+      "scenario_id": "S001",
+      "name": "HTN only high potassium target [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S002",
+      "name": "HTN plus CKD hyperkalemia risk [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S003",
+      "name": "T2DM low fiber and carbohydrate [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S004",
+      "name": "CKD sodium violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S005",
+      "name": "HTN high sodium and low potassium violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S006",
+      "name": "HTN plus CKD without hyperkalemia risk [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S007",
+      "name": "CKD phosphorus risk violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S008",
+      "name": "T2DM low fiber and carbohydrate test [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S009",
+      "name": "HTN dinner sodium allocation violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S010",
+      "name": "T2DM target-range pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S011",
+      "name": "HTN alternative potassium pass [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S012",
+      "name": "HTN low potassium pattern [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S013",
+      "name": "HTN processed dinner violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S014",
+      "name": "CKD hyperkalemia potassium violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S015",
+      "name": "CKD hyperkalemia potassium pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S016",
+      "name": "CKD elevated phosphorus soft violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S017",
+      "name": "CKD phosphorus risk pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S018",
+      "name": "T2DM borderline low carbohydrate [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S019",
+      "name": "T2DM added sugar violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S020",
+      "name": "T2DM processed sodium violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S021",
+      "name": "HTN plus CKD potassium compatible [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S022",
+      "name": "HTN plus CKD second potassium conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S023",
+      "name": "T2DM plus HTN sodium potassium fiber violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S024",
+      "name": "T2DM plus CKD low fiber carbohydrate [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S025",
+      "name": "T2DM plus CKD compatible pattern [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S026",
+      "name": "HTN breakfast sodium allocation violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S027",
+      "name": "T2DM lunch low fiber carbohydrate [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S028",
+      "name": "CKD sodium pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S029",
+      "name": "T2DM HTN CKD potassium conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S030",
+      "name": "T2DM HTN CKD processed high sodium conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S031",
+      "name": "HTN DASH-like full-day pass [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S032",
+      "name": "HTN low potassium lean-protein fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S033",
+      "name": "HTN sodium processed lunch fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S034",
+      "name": "HTN potassium upper excess [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S035",
+      "name": "HTN breakfast low potassium [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S036",
+      "name": "HTN low sodium but insufficient potassium [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S037",
+      "name": "HTN processed snack sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S038",
+      "name": "HTN high potassium upper violation [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S039",
+      "name": "HTN potassium violation with moderate sodium [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S040",
+      "name": "T2DM high fiber carbohydrate pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S041",
+      "name": "T2DM low carbohydrate protein-heavy fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S042",
+      "name": "T2DM sugary beverage fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S043",
+      "name": "T2DM high sodium processed fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S044",
+      "name": "T2DM lunch adequate pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S045",
+      "name": "T2DM breakfast low fiber fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S046",
+      "name": "T2DM dinner carbohydrate low fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S047",
+      "name": "T2DM added sugar boundary pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S048",
+      "name": "T2DM high GI low fiber fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S049",
+      "name": "T2DM fiber pass carbohydrate low fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S050",
+      "name": "CKD sodium simple pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S051",
+      "name": "CKD sodium processed fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S052",
+      "name": "CKD hyperkalemia high potassium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S053",
+      "name": "CKD hyperkalemia controlled pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S054",
+      "name": "CKD phosphorus strict fail dairy fish [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S055",
+      "name": "CKD phosphorus strict pass rice fruit [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S056",
+      "name": "CKD elevated phosphorus soft fail cheese [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S057",
+      "name": "CKD elevated phosphorus soft pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S058",
+      "name": "CKD lunch sodium allocation fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S059",
+      "name": "CKD hyperkalemia lunch pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S060",
+      "name": "CKD hyperkalemia lunch fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S061",
+      "name": "HTN CKD compatible high potassium no risk pass [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S062",
+      "name": "HTN CKD hyperkalemia conflict high potassium [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S063",
+      "name": "HTN CKD hyperkalemia low potassium conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S064",
+      "name": "HTN CKD sodium fail no hyperkalemia [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S065",
+      "name": "HTN CKD breakfast sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S066",
+      "name": "HTN CKD hyperkalemia sodium plus conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S067",
+      "name": "T2DM HTN potassium upper fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S068",
+      "name": "T2DM HTN low fiber potassium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S069",
+      "name": "T2DM HTN processed sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S070",
+      "name": "T2DM HTN sugary low potassium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S071",
+      "name": "T2DM HTN lunch potassium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S072",
+      "name": "T2DM CKD compatible pass no hyperkalemia [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S073",
+      "name": "T2DM CKD hyperkalemia potassium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S074",
+      "name": "T2DM CKD low fiber carbohydrate fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S075",
+      "name": "T2DM CKD sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S076",
+      "name": "T2DM CKD phosphorus and fiber risk fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S077",
+      "name": "T2DM CKD phosphorus risk pass [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S078",
+      "name": "Triple no hyperkalemia potassium upper fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S079",
+      "name": "Triple hyperkalemia conflict high potassium [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S080",
+      "name": "Triple processed sodium conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S081",
+      "name": "Triple low potassium adequacy fail conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S082",
+      "name": "Triple phosphorus and potassium risks [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "phosphorus_mg",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "phosphorus_mg",
+          "potassium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S083",
+      "name": "Triple lunch conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S084",
+      "name": "Triple breakfast sodium and conflict [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "potassium_mg",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "potassium_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 1,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S085",
+      "name": "CKD elevated phosphorus low sodium pass [USDA candidate]",
+      "expected": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": true,
+        "violation_nutrients": [],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S086",
+      "name": "T2DM snack sugar sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "fiber_g",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S087",
+      "name": "HTN snack potassium upper fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S088",
+      "name": "CKD snack phosphorus sodium fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg",
+          "sodium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "phosphorus_mg",
+          "sodium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S089",
+      "name": "T2DM HTN CKD no risk low sodium but low fiber [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "carbohydrate_g",
+          "fiber_g",
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    },
+    {
+      "scenario_id": "S090",
+      "name": "Triple no risk potassium upper fail [USDA candidate]",
+      "expected": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_nutrient": "",
+        "missing_data": false,
+        "label_source": "usda_candidate_verifier_recomputed_2026-05-26"
+      },
+      "actual": {
+        "passed": false,
+        "violation_nutrients": [
+          "potassium_mg"
+        ],
+        "conflict_count": 0,
+        "missing_data": false
+      },
+      "mismatches": []
+    }
+  ]
+}

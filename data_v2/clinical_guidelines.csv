@@ -1,0 +1,5 @@
+guideline_id,name,organization,year,url,note
+G_HTN_001,2017 ACC/AHA High Blood Pressure Clinical Practice Guideline,American College of Cardiology / American Heart Association,2017,https://doi.org/10.1161/HYP.0000000000000065,Whelton PK et al. Hypertension 2018;71(6):e13-e115.
+G_CKD_001,KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD,Kidney Disease: Improving Global Outcomes,2024,https://doi.org/10.1016/j.kint.2023.10.018,Kidney International Supplements 2024.
+G_CKD_002,KDOQI Clinical Practice Guideline for Nutrition in CKD: 2020 Update,National Kidney Foundation,2020,https://doi.org/10.1053/j.ajkd.2020.05.006,Ikizler TA et al. AJKD 2020;76(3 Suppl 1):S1-S107.
+G_T2DM_001,Standards of Medical Care in Diabetes 2024,American Diabetes Association,2024,https://doi.org/10.2337/dc24-S005,Diabetes Care 2024;47(Supplement 1).

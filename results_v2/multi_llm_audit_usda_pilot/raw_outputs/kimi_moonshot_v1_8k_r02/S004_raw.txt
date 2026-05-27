@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Chicken breast", "servings": 2},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Oatmeal", "servings": 1.5},
+    {"name": "Orange", "servings": 1}
+  ],
+  "rationale": "Balanced meal plan to meet protein and potassium needs without exceeding sodium limits."
+}

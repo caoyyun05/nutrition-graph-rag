@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Quinoa cooked", "servings": 1},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Salmon", "servings": 2},
+    {"name": "Apple", "servings": 1},
+    {"name": "White rice", "servings": 0.5}
+  ],
+  "rationale": "Provided balanced nutrients, omitting high-phosphorus foods like dairy and meat."
+}

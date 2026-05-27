@@ -1,0 +1,12 @@
+```json
+{
+  "recommended_foods": [
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Chicken breast", "servings": 2},
+    {"name": "Quinoa cooked", "servings": 1},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Orange", "servings": 1}
+  ],
+  "rationale": "A balanced sodium-conscious meal for individuals with HTN."
+}
+```

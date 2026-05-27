@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Turkey breast", "servings": 2},
+    {"name": "Potato baked", "servings": 1},
+    {"name": "Orange", "servings": 1}
+  ],
+  "rationale": "A balanced diet for a patient with HTN and CKD, avoiding high potassium foods."
+}

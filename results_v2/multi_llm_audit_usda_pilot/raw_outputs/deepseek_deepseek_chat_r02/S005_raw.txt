@@ -1,0 +1,11 @@
+{
+  "recommended_foods": [
+    {"name": "Avocado", "servings": 1},
+    {"name": "Banana", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Salmon", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Orange juice", "servings": 1}
+  ],
+  "rationale": "These foods are rich in potassium and low in sodium, which can help manage hypertension."
+}

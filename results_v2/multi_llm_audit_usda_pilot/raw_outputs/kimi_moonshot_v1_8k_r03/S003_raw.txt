@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Almonds", "servings": 1},
+    {"name": "Salmon", "servings": 2},
+    {"name": "Quinoa cooked", "servings": 1.5},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Apple", "servings": 1}
+  ],
+  "rationale": "Balanced diet with high protein and low glycemic load carbs for T2DM."
+}

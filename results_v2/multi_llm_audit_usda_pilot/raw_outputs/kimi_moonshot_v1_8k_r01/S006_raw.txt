@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Banana", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Chicken breast", "servings": 3}
+  ],
+  "rationale": "This meal plan focuses on foods that are low in sodium and high in potassium for HTN and CKD without hyperkalemia."
+}

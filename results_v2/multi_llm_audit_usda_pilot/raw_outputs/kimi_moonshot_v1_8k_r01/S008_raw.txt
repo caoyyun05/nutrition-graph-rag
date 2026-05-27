@@ -1,0 +1,9 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Almonds", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Salmon", "servings": 3}
+  ],
+  "rationale": "To create a balanced diet with low to moderate fiber and carbohydrate foods for a T2DM patient."
+}

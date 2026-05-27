@@ -1,0 +1,12 @@
+```json
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Salmon", "servings": 0.5},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Spinach", "servings": 0.5},
+    {"name": "Sweet potato baked", "servings": 1}
+  ],
+  "rationale": "Maintaining a balanced diet with foods low in sodium, healthy fats, and potassium for HTN and CKD management."
+}
+```

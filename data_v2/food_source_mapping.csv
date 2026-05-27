@@ -1,0 +1,56 @@
+food_id,name,current_value_status,recommended_primary_source,source_database_type,source_match_status,source_identifier,source_food_name,access_date,notes
+F001,Brown rice,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Use cooked brown rice generic entry; verify serving basis and cooked state.
+F002,Oatmeal,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Use cooked or dry oats consistently; current serving size is 40 g.
+F003,Whole wheat bread,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic whole-wheat bread; verify per-slice serving size.
+F004,White rice,prototype_value,USDA FoodData Central or China Food Composition Table,SR Legacy/FNDDS or national table,candidate_not_value_verified,,,2026-05-26,Use cooked white rice generic entry; Chinese table is preferable for China-focused extension.
+F005,Broccoli,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic broccoli; verify raw/cooked state.
+F006,Spinach,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic spinach; verify raw/cooked state because potassium differs substantially.
+F007,Tomato,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic tomato.
+F008,Banana,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic banana.
+F009,Apple,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic apple.
+F010,Chicken breast,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked skinless chicken breast; verify cooked state.
+F011,Salmon,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic salmon; verify cooked/raw and species.
+F012,Tofu,prototype_value,USDA FoodData Central or China Food Composition Table,SR Legacy/FNDDS or national table,candidate_not_value_verified,,,2026-05-26,Generic tofu; Chinese table is preferable for China-focused extension.
+F013,Lentils cooked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked lentils.
+F014,Canned soup,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Processed food varies by brand; keep as generic prototype or replace with specific branded entry.
+F015,Low-sodium yogurt,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Low-sodium claim may require brand-specific label verification.
+F016,Quinoa cooked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked quinoa.
+F017,Whole wheat pasta,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked whole-wheat pasta.
+F018,Corn,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic corn; verify cooked/raw state.
+F019,Potato baked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic baked potato; verify flesh/skin inclusion.
+F020,Sweet potato baked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic baked sweet potato.
+F021,Kale,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic kale; verify raw/cooked state.
+F022,Carrot,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic carrot.
+F023,Cucumber,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cucumber.
+F024,Mushroom,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic mushroom; type should be specified in source audit.
+F025,Romaine lettuce,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic romaine lettuce.
+F026,Orange,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic orange.
+F027,Grapes,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic grapes.
+F028,Strawberries,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic strawberries.
+F029,Avocado,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic avocado.
+F030,Orange juice,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic orange juice; fortified products should be avoided unless specified.
+F031,Egg,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic whole egg; verify cooked state.
+F032,Turkey breast,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic turkey breast; deli turkey differs in sodium.
+F033,Lean beef,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic lean beef; specify cut and cooked state in source audit.
+F034,Pork tenderloin,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic pork tenderloin; verify cooked state.
+F035,Shrimp,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic shrimp; sodium varies for cooked/processed products.
+F036,Sardines canned,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Canned fish varies by oil/water/sauce and brand.
+F037,Milk low-fat,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic low-fat milk; verify fat percentage and fortification.
+F038,Cheddar cheese,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cheddar cheese.
+F039,Cottage cheese,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Sodium varies by product; low-sodium variants should be explicit.
+F040,Chickpeas cooked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked chickpeas.
+F041,Black beans cooked,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic cooked black beans; canned versions differ in sodium.
+F042,Almonds,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic almonds; salted versions differ in sodium.
+F043,Peanut butter,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Brand and added sugar/sodium vary.
+F044,Ham,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Processed meat; brand and curing method strongly affect sodium.
+F045,Instant noodles,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Processed product; brand-specific label is preferable.
+F046,Pepperoni pizza,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Composite processed food; use generic FNDDS or brand-specific entry.
+F047,Salted crackers,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Processed food; brand-specific label is preferable.
+F048,Potato chips,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Processed snack; sodium varies by product.
+F049,Soda,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Use regular sugar-sweetened carbonated beverage unless otherwise specified.
+F050,Cookies,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Composite processed food; brand/type affects sugar and sodium.
+F051,Chocolate cake,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Composite dessert; recipe/brand affects nutrients.
+F052,Sugary cereal,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Breakfast cereal is brand-variable; use specific branded entry for final audit.
+F053,Bagel,prototype_value,USDA FoodData Central,SR Legacy/FNDDS,candidate_not_value_verified,,,2026-05-26,Generic plain bagel; size varies.
+F054,Tuna canned in water,prototype_value,USDA FoodData Central or branded label,FNDDS/Branded,candidate_not_value_verified,,,2026-05-26,Canned tuna varies by brand and sodium.
+F055,Edamame,prototype_value,USDA FoodData Central or China Food Composition Table,SR Legacy/FNDDS or national table,candidate_not_value_verified,,,2026-05-26,Generic edamame; Chinese/Asian database may be preferable for regional extension.

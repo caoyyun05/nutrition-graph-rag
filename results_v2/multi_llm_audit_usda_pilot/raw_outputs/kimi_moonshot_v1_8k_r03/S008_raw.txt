@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Chicken breast", "servings": 3},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 0.5}
+  ],
+  "rationale": "Balanced intake of carbohydrates, proteins, and fibers with emphasis on fiber for T2DM management."
+}

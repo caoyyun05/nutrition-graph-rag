@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Salmon", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Orange", "servings": 1},
+    {"name": "Almonds", "servings": 1}
+  ],
+  "rationale": "Low sodium, high potassium, and renal-friendly protein to manage hypertension and CKD without hyperkalemia risk."
+}

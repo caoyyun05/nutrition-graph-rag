@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Spinach", "servings": 1},
+    {"name": "Potato baked", "servings": 2},
+    {"name": "Chicken breast", "servings": 3},
+    {"name": "Orange", "servings": 1.5}
+  ],
+  "rationale": "To maintain a balanced diet while controlling high sodium and low potassium levels."
+}

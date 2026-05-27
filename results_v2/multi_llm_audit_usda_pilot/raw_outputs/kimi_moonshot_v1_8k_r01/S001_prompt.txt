@@ -1,0 +1,23 @@
+Create one full_day dietary recommendation for the patient scenario below.
+
+Scenario ID: S001
+Scenario name: HTN only high potassium target [USDA candidate]
+Diseases: HTN
+Risk factors: none
+
+Use only foods from this allowed food list:
+Almonds, Apple, Avocado, Bagel, Banana, Black beans cooked, Broccoli, Brown rice, Canned soup, Carrot, Cheddar cheese, Chicken breast, Chickpeas cooked, Chocolate cake, Cookies, Corn, Cottage cheese, Cucumber, Edamame, Egg, Grapes, Ham, Kale, Lean beef, Lentils cooked, Low-fat yogurt, Milk low-fat, Mushroom, Oatmeal, Orange, Orange juice, Peanut butter, Pepperoni pizza, Pork tenderloin, Potato baked, Potato chips, Quinoa cooked, Ramen noodles, Romaine lettuce, Salmon, Salted crackers, Sardines canned, Shrimp, Soda, Spinach, Strawberries, Sweet potato baked, Sweetened cereal, Tofu, Tomato, Tuna canned in water, Turkey breast, White rice, Whole wheat bread, Whole wheat pasta
+
+Return only valid JSON in this exact schema:
+{
+  "recommended_foods": [
+    {"name": "<food name copied exactly from the allowed list>", "servings": <number>}
+  ],
+  "rationale": "<one short sentence>"
+}
+
+Rules:
+- Choose 3 to 6 foods.
+- Use numeric servings such as 0.5, 1, 2, or 3.
+- Do not include foods outside the allowed list.
+- Do not include markdown fences or explanatory text outside the JSON.

@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Almonds", "servings": 1},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Lean beef", "servings": 2},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Whole wheat bread", "servings": 2}
+  ],
+  "rationale": "Balanced macronutrients with focus on low-GI carbs and high-quality protein."
+}

@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Quinoa cooked", "servings": 1.5},
+    {"name": "Oatmeal", "servings": 0.5},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Spinach", "servings": 2}
+  ],
+  "rationale": "This balanced selection of foods minimizes phosphorus intake while providing CKD appropriate servings."
+}

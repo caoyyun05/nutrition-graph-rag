@@ -1,0 +1,11 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Broccoli", "servings": 1},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "White rice", "servings": 1},
+    {"name": "Strawberries", "servings": 1},
+    {"name": "Romaine lettuce", "servings": 1}
+  ],
+  "rationale": "These foods are low in phosphorus and help manage hyperphosphatemia risk in CKD."
+}

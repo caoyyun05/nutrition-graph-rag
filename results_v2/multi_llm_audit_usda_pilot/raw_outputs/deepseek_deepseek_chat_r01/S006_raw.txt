@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Salmon", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Apple", "servings": 1}
+  ],
+  "rationale": "This combination supports blood pressure control and kidney health through low sodium, high potassium (balanced for CKD), and anti-inflammatory omega-3s."
+}

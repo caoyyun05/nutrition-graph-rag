@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Salmon", "servings": 1},
+    {"name": "Brown rice", "servings": 1},
+    {"name": "Broccoli", "servings": 2},
+    {"name": "Apple", "servings": 1},
+    {"name": "Low-fat yogurt", "servings": 1}
+  ],
+  "rationale": "This DASH-style meal provides heart-healthy fats, low-sodium plant foods, and controlled potassium to manage hypertension and CKD without hyperkalemia risk."
+}

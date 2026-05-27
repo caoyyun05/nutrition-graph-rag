@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Oatmeal", "servings": 1},
+    {"name": "Egg", "servings": 2},
+    {"name": "Broccoli", "servings": 1.5},
+    {"name": "Sweet potato baked", "servings": 1},
+    {"name": "Salmon", "servings": 3}
+  ],
+  "rationale": "Balanced meal with carbohydrates, protein and fiber for T2DM"
+}

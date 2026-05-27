@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Avocado", "servings": 0.5},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Salmon", "servings": 1}
+  ],
+  "rationale": "High potassium and low sodium foods for hypertension management."
+}

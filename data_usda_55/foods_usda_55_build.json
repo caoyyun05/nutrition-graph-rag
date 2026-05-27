@@ -1,0 +1,5810 @@
+{
+  "foods": [
+    {
+      "food_id": "U001",
+      "name": "Brown rice",
+      "category": "grain",
+      "serving_size_g": 150,
+      "query": "rice brown cooked",
+      "required": [
+        "rice",
+        "brown"
+      ],
+      "avoid": [
+        "white",
+        "uncle",
+        "ben",
+        "baby",
+        "sausage",
+        "link",
+        "pork"
+      ],
+      "candidate": {
+        "fdc_id": "169704",
+        "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "rice brown cooked",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169704",
+          "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "rice brown cooked",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "172026",
+          "description": "Pasta, gluten-free, brown rice flour, cooked, TINKYADA",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "168875",
+          "description": "Rice, brown, medium-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "2708409",
+          "description": "Rice, brown, cooked, NS as to fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "2708414",
+          "description": "Rice, brown, cooked, no added fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "2710789",
+          "description": "Rice, brown, cooked, as ingredient",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "2708411",
+          "description": "Rice, brown, cooked, made with butter",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "rice brown cooked"
+        },
+        {
+          "fdc_id": "2708430",
+          "description": "Rice, brown and wild, cooked, fat added",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "rice brown cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U002",
+      "name": "Oatmeal",
+      "category": "grain",
+      "serving_size_g": 40,
+      "query": "oats oatmeal cooked",
+      "required": [
+        "oat"
+      ],
+      "avoid": [
+        "cookie",
+        "bar",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "173905",
+        "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "oats oatmeal cooked",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173905",
+          "description": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "oats oatmeal cooked",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "168873",
+          "description": "Oat bran, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.9167,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "171675",
+          "description": "Cereals, oats, regular and quick and instant, unenriched, cooked with water (includes boiling and microwaving), with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.9167,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "2708444",
+          "description": "Oat bran cereal, cooked",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.8167,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "173576",
+          "description": "Oil, oat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "168872",
+          "description": "Oat bran, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "172676",
+          "description": "Bread, oat bran",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "oats oatmeal cooked"
+        },
+        {
+          "fdc_id": "172666",
+          "description": "Bagels, oat bran",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "oats oatmeal cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U003",
+      "name": "Whole wheat bread",
+      "category": "grain",
+      "serving_size_g": 60,
+      "query": "bread whole wheat",
+      "required": [
+        "bread",
+        "wheat"
+      ],
+      "avoid": [
+        "pita",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "172688",
+        "description": "Bread, whole-wheat, commercially prepared",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "bread whole wheat",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "172688",
+          "description": "Bread, whole-wheat, commercially prepared",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "bread whole wheat",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "174091",
+          "description": "Bread, french or vienna, whole wheat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "172690",
+          "description": "Bread, whole-wheat, prepared from recipe",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "172691",
+          "description": "Bread, whole-wheat, prepared from recipe, toasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "172689",
+          "description": "Bread, whole-wheat, commercially prepared, toasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "174076",
+          "description": "Bread, paratha, whole wheat, commercially prepared, frozen",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "174077",
+          "description": "Bread, naan, whole wheat, commercially prepared, refrigerated",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        },
+        {
+          "fdc_id": "174075",
+          "description": "Bread, chapati or roti, whole wheat, commercially prepared, frozen",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bread whole wheat"
+        }
+      ]
+    },
+    {
+      "food_id": "U004",
+      "name": "White rice",
+      "category": "grain",
+      "serving_size_g": 150,
+      "query": "rice white cooked",
+      "required": [
+        "rice",
+        "white"
+      ],
+      "avoid": [
+        "brown",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "168882",
+        "description": "Rice, white, short-grain, enriched, cooked",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "rice white cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168882",
+          "description": "Rice, white, short-grain, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "169711",
+          "description": "Rice, white, glutinous, unenriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "168880",
+          "description": "Rice, white, medium-grain, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "168932",
+          "description": "Rice, white, short-grain, cooked, unenriched",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "168930",
+          "description": "Rice, white, medium-grain, cooked, unenriched",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "168878",
+          "description": "Rice, white, long-grain, regular, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "169708",
+          "description": "Rice, white, long-grain, parboiled, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        },
+        {
+          "fdc_id": "169759",
+          "description": "Rice, white, long-grain, parboiled, unenriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "rice white cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U005",
+      "name": "Broccoli",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "broccoli cooked",
+      "required": [
+        "broccoli"
+      ],
+      "avoid": [
+        "raab",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "169967",
+        "description": "Broccoli, cooked, boiled, drained, without salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "broccoli cooked",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169967",
+          "description": "Broccoli, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "broccoli cooked",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "169392",
+          "description": "Broccoli, chinese, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "168510",
+          "description": "Broccoli, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "168512",
+          "description": "Broccoli, frozen, spears, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "168511",
+          "description": "Broccoli, frozen, chopped, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "170380",
+          "description": "Broccoli, frozen, spears, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "169969",
+          "description": "Broccoli, frozen, chopped, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        },
+        {
+          "fdc_id": "321618",
+          "description": "Broccoli, cooked (IN1,NY1) - CY0906K",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "broccoli cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U006",
+      "name": "Spinach",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "spinach cooked",
+      "required": [
+        "spinach"
+      ],
+      "avoid": [
+        "malabar",
+        "baby",
+        "spaghetti",
+        "pasta"
+      ],
+      "candidate": {
+        "fdc_id": "168463",
+        "description": "Spinach, cooked, boiled, drained, without salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "spinach cooked",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168463",
+          "description": "Spinach, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "spinach cooked",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "169734",
+          "description": "Noodles, egg, spinach, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "170531",
+          "description": "Spinach, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "170506",
+          "description": "New zealand spinach, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "168441",
+          "description": "New Zealand spinach, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "170505",
+          "description": "Mustard spinach, (tendergreen), cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "170124",
+          "description": "Spinach, frozen, chopped or leaf, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        },
+        {
+          "fdc_id": "168439",
+          "description": "Mustard spinach, (tendergreen), cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "spinach cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U007",
+      "name": "Tomato",
+      "category": "vegetable",
+      "serving_size_g": 120,
+      "query": "tomato raw",
+      "required": [
+        "tomato"
+      ],
+      "avoid": [
+        "sauce",
+        "juice",
+        "paste",
+        "dried",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "170457",
+        "description": "Tomatoes, red, ripe, raw, year round average",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "tomato raw",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170457",
+          "description": "Tomatoes, red, ripe, raw, year round average",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "tomato raw",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "170456",
+          "description": "Tomatoes, green, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "170096",
+          "description": "Tomatoes, yellow, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "170502",
+          "description": "Tomatoes, orange, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "321360",
+          "description": "Tomatoes, grape, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "2709719",
+          "description": "Tomatoes, raw",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "170461",
+          "description": "Tomato powder",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "tomato raw"
+        },
+        {
+          "fdc_id": "170501",
+          "description": "Tomatoes, crushed, canned",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "tomato raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U008",
+      "name": "Banana",
+      "category": "fruit",
+      "serving_size_g": 120,
+      "query": "banana raw",
+      "required": [
+        "banana"
+      ],
+      "avoid": [
+        "pepper",
+        "pudding",
+        "chip",
+        "melon",
+        "bar",
+        "smoothie",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "173944",
+        "description": "Bananas, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "banana raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173944",
+          "description": "Bananas, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "790774",
+          "description": "Bananas, overripe, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2020-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "1105073",
+          "description": "Bananas, overripe, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2020-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "790991",
+          "description": "Bananas, ripe and slightly ripe, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2020-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "1105314",
+          "description": "Bananas, ripe and slightly ripe, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2020-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "2709224",
+          "description": "Banana, raw",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "175230",
+          "description": "SILK Banana-Strawberry soy yogurt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "banana raw"
+        },
+        {
+          "fdc_id": "173945",
+          "description": "Bananas, dehydrated, or banana powder",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "banana raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U009",
+      "name": "Apple",
+      "category": "fruit",
+      "serving_size_g": 150,
+      "query": "apple raw",
+      "required": [
+        "apple"
+      ],
+      "avoid": [
+        "mammy",
+        "mamey",
+        "custard",
+        "juice",
+        "pie",
+        "sauce",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "171688",
+        "description": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "apple raw",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "171688",
+          "description": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "apple raw",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "2709215",
+          "description": "Apple, raw",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "175032",
+          "description": "Strudel, apple",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "174988",
+          "description": "Croissants, apple",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "168816",
+          "description": "Fruit butters, apple",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "169601",
+          "description": "Desserts, apple crisp, prepared-from-recipe",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "174645",
+          "description": "Cereals ready-to-eat, MALT-O-MEAL, Apple ZINGS",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "171684",
+          "description": "Cereals, QUAKER, oatmeal, REAL MEDLEYS, apple walnut, dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        },
+        {
+          "fdc_id": "174997",
+          "description": "Muffins, English, raisin-cinnamon (includes apple-cinnamon)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "apple raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U010",
+      "name": "Chicken breast",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "chicken breast cooked skinless",
+      "required": [
+        "chicken",
+        "breast"
+      ],
+      "avoid": [
+        "restaurant",
+        "sandwich"
+      ],
+      "candidate": {
+        "fdc_id": "171140",
+        "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "chicken breast cooked skinless"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "171140",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "171534",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, grilled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "171535",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, braised",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "171536",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, grilled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "331960",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "331898",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised (IN,NY) - 17A-02-01",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "331911",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised (FL,MO) - 17A-02-05",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        },
+        {
+          "fdc_id": "331917",
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised (MI,OK) - 17A-02-06",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "chicken breast cooked skinless"
+        }
+      ]
+    },
+    {
+      "food_id": "U011",
+      "name": "Salmon",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "salmon cooked",
+      "required": [
+        "salmon"
+      ],
+      "avoid": [
+        "smoked",
+        "spread"
+      ],
+      "candidate": {
+        "fdc_id": "172000",
+        "description": "Fish, salmon, chum, cooked, dry heat",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "salmon cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "172000",
+          "description": "Fish, salmon, chum, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "172001",
+          "description": "Fish, salmon, pink, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "171999",
+          "description": "Fish, salmon, chinook, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "173692",
+          "description": "Fish, salmon, sockeye, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "173719",
+          "description": "Fish, salmon, coho, wild, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "173716",
+          "description": "Fish, salmon, coho, farmed, cooked, dry heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "175137",
+          "description": "Fish, salmon, coho, wild, cooked, moist heat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        },
+        {
+          "fdc_id": "173722",
+          "description": "Salmon nuggets, cooked as purchased, unheated",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "salmon cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U012",
+      "name": "Tofu",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "tofu firm",
+      "required": [
+        "tofu"
+      ],
+      "avoid": [
+        "dessert"
+      ],
+      "candidate": {
+        "fdc_id": "172461",
+        "description": "MORI-NU, Tofu, silken, firm",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "tofu firm"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "172461",
+          "description": "MORI-NU, Tofu, silken, firm",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "173788",
+          "description": "HOUSE FOODS Premium Firm Tofu",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "175236",
+          "description": "Vitasoy USA Azumaya, Firm Tofu",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "172463",
+          "description": "MORI-NU, Tofu, silken, lite firm",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "172462",
+          "description": "MORI-NU, Tofu, silken, extra firm",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "172468",
+          "description": "Vitasoy USA, Nasoya Lite Firm Tofu",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "175235",
+          "description": "Vitasoy USA Azumaya, Extra Firm Tofu",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        },
+        {
+          "fdc_id": "173763",
+          "description": "Vitasoy USA, Organic Nasoya Firm Tofu",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tofu firm"
+        }
+      ]
+    },
+    {
+      "food_id": "U013",
+      "name": "Lentils cooked",
+      "category": "legume",
+      "serving_size_g": 100,
+      "query": "lentils cooked",
+      "required": [
+        "lentil"
+      ],
+      "avoid": [
+        "sprouted"
+      ],
+      "candidate": {
+        "fdc_id": "175254",
+        "description": "Lentils, mature seeds, cooked, boiled, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "lentils cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "175254",
+          "description": "Lentils, mature seeds, cooked, boiled, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "172421",
+          "description": "Lentils, mature seeds, cooked, boiled, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "172420",
+          "description": "Lentils, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "171577",
+          "description": "SMART SOUP, French Lentil",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "174284",
+          "description": "Lentils, pink or red, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "171549",
+          "description": "Soup, lentil with ham, canned, ready-to-serve",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "2644283",
+          "description": "Lentils, dry",
+          "data_type": "foundation_food",
+          "publication_date": "2023-10-26",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "lentils cooked"
+        },
+        {
+          "fdc_id": "2644328",
+          "description": "lentils, dry",
+          "data_type": "sample_food",
+          "publication_date": "2023-10-26",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "lentils cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U014",
+      "name": "Canned soup",
+      "category": "processed",
+      "serving_size_g": 250,
+      "query": "soup canned",
+      "required": [
+        "soup"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "dry"
+      ],
+      "candidate": {
+        "fdc_id": "2707127",
+        "description": "Soup, beef, canned",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "soup canned"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2707127",
+          "description": "Soup, beef, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2707454",
+          "description": "Soup, bean, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2707460",
+          "description": "Soup, lentil, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2709759",
+          "description": "Soup, tomato, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2707133",
+          "description": "Soup, chicken, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2710111",
+          "description": "Soup, vegetable, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2709148",
+          "description": "Soup, chicken noodle, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        },
+        {
+          "fdc_id": "2707456",
+          "description": "Soup, bean, canned, reduced sodium",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "soup canned"
+        }
+      ]
+    },
+    {
+      "food_id": "U015",
+      "name": "Low-fat yogurt",
+      "category": "dairy",
+      "serving_size_g": 170,
+      "query": "yogurt low fat plain",
+      "required": [
+        "yogurt"
+      ],
+      "avoid": [
+        "frozen",
+        "drink",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "170886",
+        "description": "Yogurt, plain, low fat",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "yogurt low fat plain"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170886",
+          "description": "Yogurt, plain, low fat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "2705419",
+          "description": "Yogurt, low fat milk, plain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.0,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "2705423",
+          "description": "Yogurt, Greek, low fat milk, plain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.0,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "170888",
+          "description": "Yogurt, vanilla, low fat.",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "170889",
+          "description": "Yogurt, fruit, low fat,9 g protein/8 oz",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "171286",
+          "description": "Yogurt, fruit, low fat, 11g protein/8 oz",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "172219",
+          "description": "Yogurt, vanilla, low fat, fortified with vitamin D",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "yogurt low fat plain"
+        },
+        {
+          "fdc_id": "171285",
+          "description": "Yogurt, fruit, low fat, 10 grams protein per 8 ounce",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "yogurt low fat plain"
+        }
+      ]
+    },
+    {
+      "food_id": "U016",
+      "name": "Quinoa cooked",
+      "category": "grain",
+      "serving_size_g": 150,
+      "query": "quinoa cooked",
+      "required": [
+        "quinoa"
+      ],
+      "avoid": [
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "168917",
+        "description": "Quinoa, cooked",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "quinoa cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168917",
+          "description": "Quinoa, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "172027",
+          "description": "Pasta, gluten-free, corn flour and quinoa flour, cooked, ANCIENT HARVEST",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "168874",
+          "description": "Quinoa, uncooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "2512372",
+          "description": "Flour, quinoa",
+          "data_type": "foundation_food",
+          "publication_date": "2023-04-20",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "2512431",
+          "description": "quinoa, flour",
+          "data_type": "sample_food",
+          "publication_date": "2023-04-20",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "2512433",
+          "description": "quinoa, flour",
+          "data_type": "sample_food",
+          "publication_date": "2023-04-20",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "2512435",
+          "description": "quinoa, flour",
+          "data_type": "sample_food",
+          "publication_date": "2023-04-20",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        },
+        {
+          "fdc_id": "2512437",
+          "description": "quinoa, flour",
+          "data_type": "sample_food",
+          "publication_date": "2023-04-20",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "quinoa cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U017",
+      "name": "Whole wheat pasta",
+      "category": "grain",
+      "serving_size_g": 140,
+      "query": "pasta whole wheat cooked",
+      "required": [
+        "pasta",
+        "wheat"
+      ],
+      "avoid": [
+        "lasagna"
+      ],
+      "candidate": {
+        "fdc_id": "168916",
+        "description": "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, cooked",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "pasta whole wheat cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168916",
+          "description": "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pasta whole wheat cooked"
+        },
+        {
+          "fdc_id": "168910",
+          "description": "Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pasta whole wheat cooked"
+        },
+        {
+          "fdc_id": "172024",
+          "description": "Pasta, whole grain, 51% whole wheat, remaining enriched semolina, cooked (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pasta whole wheat cooked"
+        },
+        {
+          "fdc_id": "168915",
+          "description": "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "pasta whole wheat cooked"
+        },
+        {
+          "fdc_id": "169738",
+          "description": "Pasta, whole-wheat, dry (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "pasta whole wheat cooked"
+        },
+        {
+          "fdc_id": "172025",
+          "description": "Pasta, whole grain, 51% whole wheat, remaining enriched semolina, dry (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.85,
+          "query": "pasta whole wheat cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U018",
+      "name": "Corn",
+      "category": "grain",
+      "serving_size_g": 100,
+      "query": "corn sweet cooked",
+      "required": [
+        "corn"
+      ],
+      "avoid": [
+        "meal",
+        "flour",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "168540",
+        "description": "Corn, sweet, white, cooked, boiled, drained, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "corn sweet cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168540",
+          "description": "Corn, sweet, white, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "168525",
+          "description": "Corn, sweet, yellow, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "168539",
+          "description": "Corn, sweet, white, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "169999",
+          "description": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "169367",
+          "description": "Corn, sweet, white, frozen, kernels on cob, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "169349",
+          "description": "Corn, sweet, yellow, frozen, kernels on cob, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "169366",
+          "description": "Corn, sweet, white, frozen, kernels on cob, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        },
+        {
+          "fdc_id": "168401",
+          "description": "Corn, sweet, yellow, frozen, kernels on cob, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "corn sweet cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U019",
+      "name": "Potato baked",
+      "category": "vegetable",
+      "serving_size_g": 173,
+      "query": "potato baked",
+      "required": [
+        "potato"
+      ],
+      "avoid": [
+        "sweet",
+        "chip"
+      ],
+      "candidate": {
+        "fdc_id": "170112",
+        "description": "Potatoes, baked, flesh, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "potato baked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170112",
+          "description": "Potatoes, baked, flesh, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170034",
+          "description": "Potatoes, baked, skin, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170033",
+          "description": "Potatoes, baked, flesh, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170435",
+          "description": "Potatoes, red, flesh and skin, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170113",
+          "description": "Potatoes, baked, skin only, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170434",
+          "description": "Potatoes, white, flesh and skin, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170030",
+          "description": "Potatoes, Russet, flesh and skin, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        },
+        {
+          "fdc_id": "170111",
+          "description": "Potatoes, baked, flesh and skin, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "potato baked"
+        }
+      ]
+    },
+    {
+      "food_id": "U020",
+      "name": "Sweet potato baked",
+      "category": "vegetable",
+      "serving_size_g": 130,
+      "query": "sweet potato baked",
+      "required": [
+        "sweet",
+        "potato"
+      ],
+      "avoid": [
+        "chip"
+      ],
+      "candidate": {
+        "fdc_id": "168483",
+        "description": "Sweet potato, cooked, baked in skin, flesh, without salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "sweet potato baked",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168483",
+          "description": "Sweet potato, cooked, baked in skin, flesh, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "sweet potato baked",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "170542",
+          "description": "Sweet potato, frozen, cooked, baked, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "169307",
+          "description": "Sweet potato, frozen, cooked, baked, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "170134",
+          "description": "Sweet potato, cooked, baked in skin, flesh, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "2709700",
+          "description": "Sweet potato, baked, fat added",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "2709698",
+          "description": "Sweet potato, baked, NS as to fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "2709699",
+          "description": "Sweet potato, baked, no added fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "sweet potato baked"
+        },
+        {
+          "fdc_id": "169303",
+          "description": "Sweet potato leaves, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "sweet potato baked"
+        }
+      ]
+    },
+    {
+      "food_id": "U021",
+      "name": "Kale",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "kale cooked",
+      "required": [
+        "kale"
+      ],
+      "avoid": [
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "169355",
+        "description": "Kale, cooked, boiled, drained, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "kale cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169355",
+          "description": "Kale, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "169238",
+          "description": "Kale, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "169356",
+          "description": "Kale, frozen, cooked, boiled, drained, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "169240",
+          "description": "Kale, frozen, cooked, boiled, drained, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "326136",
+          "description": "KALE, FROZEN, COOKED",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "326141",
+          "description": "KALE, FROZEN, COOKED",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "326146",
+          "description": "KALE, FROZEN, COOKED",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "kale cooked"
+        },
+        {
+          "fdc_id": "326151",
+          "description": "KALE, FROZEN, COOKED",
+          "data_type": "sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "kale cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U022",
+      "name": "Carrot",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "carrot raw",
+      "required": [
+        "carrot"
+      ],
+      "avoid": [
+        "juice",
+        "cake",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "170393",
+        "description": "Carrots, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "carrot raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170393",
+          "description": "Carrots, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258586",
+          "description": "Carrots, mature, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258609",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258611",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258613",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258615",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258617",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        },
+        {
+          "fdc_id": "2258619",
+          "description": "carrots, mature, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "carrot raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U023",
+      "name": "Cucumber",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "cucumber raw",
+      "required": [
+        "cucumber"
+      ],
+      "avoid": [
+        "pickle"
+      ],
+      "candidate": {
+        "fdc_id": "169225",
+        "description": "Cucumber, peeled, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "cucumber raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169225",
+          "description": "Cucumber, peeled, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "168409",
+          "description": "Cucumber, with peel, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346406",
+          "description": "Cucumber, with peel, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346772",
+          "description": "cucumber, with skin, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346774",
+          "description": "cucumber, with skin, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346776",
+          "description": "cucumber, with skin, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346778",
+          "description": "cucumber, with skin, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        },
+        {
+          "fdc_id": "2346780",
+          "description": "cucumber, with skin, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "cucumber raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U024",
+      "name": "Mushroom",
+      "category": "vegetable",
+      "serving_size_g": 100,
+      "query": "mushrooms raw",
+      "required": [
+        "mushroom"
+      ],
+      "avoid": [
+        "soup"
+      ],
+      "candidate": {
+        "fdc_id": "169251",
+        "description": "Mushrooms, white, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "mushrooms raw",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169251",
+          "description": "Mushrooms, white, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "mushrooms raw",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "168423",
+          "description": "Mushrooms, morel, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "169382",
+          "description": "Mushrooms, enoki, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "168580",
+          "description": "Mushrooms, oyster, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "169403",
+          "description": "Mushrooms, maitake, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "169242",
+          "description": "Mushrooms, shiitake, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "169255",
+          "description": "Mushrooms, portabella, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        },
+        {
+          "fdc_id": "168422",
+          "description": "Mushrooms, Chanterelle, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "mushrooms raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U025",
+      "name": "Romaine lettuce",
+      "category": "vegetable",
+      "serving_size_g": 85,
+      "query": "lettuce romaine raw",
+      "required": [
+        "lettuce",
+        "romaine"
+      ],
+      "avoid": [
+        "salad"
+      ],
+      "candidate": {
+        "fdc_id": "169247",
+        "description": "Lettuce, cos or romaine, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "lettuce romaine raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169247",
+          "description": "Lettuce, cos or romaine, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "327923",
+          "description": "Lettuce, cos or romaine, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "746769",
+          "description": "Lettuce, cos or romaine, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-12-16",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "2346389",
+          "description": "Lettuce, romaine, green, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "2346500",
+          "description": "Lettuce, romaine, green, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "2346502",
+          "description": "Lettuce, romaine, green, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "2346504",
+          "description": "Lettuce, romaine, green, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        },
+        {
+          "fdc_id": "2346506",
+          "description": "Lettuce, romaine, green, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "lettuce romaine raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U026",
+      "name": "Orange",
+      "category": "fruit",
+      "serving_size_g": 140,
+      "query": "orange raw",
+      "required": [
+        "orange"
+      ],
+      "avoid": [
+        "peel",
+        "juice",
+        "pineapple",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "169918",
+        "description": "Oranges, raw, Florida",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "orange raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169918",
+          "description": "Oranges, raw, Florida",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "170502",
+          "description": "Tomatoes, orange, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "175133",
+          "description": "Fish, roughy, orange, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "169105",
+          "description": "Tangerines, (mandarin oranges), raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "169916",
+          "description": "Oranges, raw, California, valencias",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "169097",
+          "description": "Oranges, raw, all commercial varieties",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "169917",
+          "description": "Oranges, raw, navels (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "orange raw"
+        },
+        {
+          "fdc_id": "746771",
+          "description": "Oranges, raw, navels",
+          "data_type": "foundation_food",
+          "publication_date": "2019-12-16",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "orange raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U027",
+      "name": "Grapes",
+      "category": "fruit",
+      "serving_size_g": 150,
+      "query": "grapes raw",
+      "required": [
+        "grape"
+      ],
+      "avoid": [
+        "juice",
+        "raisin",
+        "leave"
+      ],
+      "candidate": {
+        "fdc_id": "2709237",
+        "description": "Grapes, raw",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 999.0,
+        "query": "grapes raw",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2709237",
+          "description": "Grapes, raw",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 999.0,
+          "query": "grapes raw",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "168575",
+          "description": "Grape leaves, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "173040",
+          "description": "Grapes, muscadine, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "174682",
+          "description": "Grapes, american type (slip skin), raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "174683",
+          "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "321360",
+          "description": "Tomatoes, grape, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "2263890",
+          "description": "Grapes, red, seedless, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "2346412",
+          "description": "Grapes, red, seedless, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "grapes raw"
+        },
+        {
+          "fdc_id": "2263891",
+          "description": "Grapes, green, seedless, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "grapes raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U028",
+      "name": "Strawberries",
+      "category": "fruit",
+      "serving_size_g": 150,
+      "query": "strawberries raw",
+      "required": [
+        "strawberry"
+      ],
+      "avoid": [
+        "juice",
+        "jam"
+      ],
+      "candidate": {
+        "fdc_id": "167762",
+        "description": "Strawberries, raw",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "strawberries raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "167762",
+          "description": "Strawberries, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "173045",
+          "description": "Guavas, strawberry, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "327699",
+          "description": "Strawberries, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "747448",
+          "description": "Strawberries, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2019-12-16",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "2263887",
+          "description": "Strawberries, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "2346409",
+          "description": "Strawberries, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "2263894",
+          "description": "strawberries, fresh, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        },
+        {
+          "fdc_id": "2263896",
+          "description": "strawberries, fresh, raw",
+          "data_type": "sample_food",
+          "publication_date": "2022-04-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "strawberries raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U029",
+      "name": "Avocado",
+      "category": "fruit",
+      "serving_size_g": 100,
+      "query": "avocado raw",
+      "required": [
+        "avocado"
+      ],
+      "avoid": [
+        "dip"
+      ],
+      "candidate": {
+        "fdc_id": "171707",
+        "description": "Avocados, raw, Florida",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "avocado raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "171707",
+          "description": "Avocados, raw, Florida",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "171706",
+          "description": "Avocados, raw, California",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "171705",
+          "description": "Avocados, raw, all commercial varieties",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "2710824",
+          "description": "Avocado, Hass, peeled, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2024-10-31",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "2711131",
+          "description": "Avocado, Hass, peeled, pit removed, raw",
+          "data_type": "sample_food",
+          "publication_date": "2024-10-31",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "2711133",
+          "description": "Avocado, Hass, peeled, pit removed, raw",
+          "data_type": "sample_food",
+          "publication_date": "2024-10-31",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "2711135",
+          "description": "Avocado, Hass, peeled, pit removed, raw",
+          "data_type": "sample_food",
+          "publication_date": "2024-10-31",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "avocado raw"
+        },
+        {
+          "fdc_id": "2711137",
+          "description": "Avocado, Hass, peeled, pit removed, raw",
+          "data_type": "sample_food",
+          "publication_date": "2024-10-31",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "avocado raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U030",
+      "name": "Orange juice",
+      "category": "fruit",
+      "serving_size_g": 240,
+      "query": "orange juice",
+      "required": [
+        "orange",
+        "juice"
+      ],
+      "avoid": [
+        "pineapple",
+        "carrot",
+        "blend"
+      ],
+      "candidate": {
+        "fdc_id": "169098",
+        "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "orange juice",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169098",
+          "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "orange juice",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "169044",
+          "description": "Beverages, Orange juice drink",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "169099",
+          "description": "Orange juice, canned, unsweetened",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "168113",
+          "description": "Frozen novelties, juice type, orange",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "173178",
+          "description": "Beverages, Orange juice, light, No pulp",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "169100",
+          "description": "Orange juice, chilled, includes from concentrate",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "173223",
+          "description": "Beverages, orange and apricot juice drink, canned",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "169106",
+          "description": "Tangerines, (mandarin oranges), canned, juice pack",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        },
+        {
+          "fdc_id": "169104",
+          "description": "Orange-grapefruit juice, canned or bottled, unsweetened",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "orange juice"
+        }
+      ]
+    },
+    {
+      "food_id": "U031",
+      "name": "Egg",
+      "category": "protein",
+      "serving_size_g": 50,
+      "query": "egg whole cooked",
+      "required": [
+        "egg"
+      ],
+      "avoid": [
+        "substitute"
+      ],
+      "candidate": {
+        "fdc_id": "173423",
+        "description": "Egg, whole, cooked, fried",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "egg whole cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173423",
+          "description": "Egg, whole, cooked, fried",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "172185",
+          "description": "Egg, whole, cooked, omelet",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "172186",
+          "description": "Egg, whole, cooked, poached",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "172187",
+          "description": "Egg, whole, cooked, scrambled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "173424",
+          "description": "Egg, whole, cooked, hard-boiled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "2707153",
+          "description": "Egg, whole, cooked, NS as to cooking method",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "169732",
+          "description": "Noodles, egg, enriched, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.9167,
+          "query": "egg whole cooked"
+        },
+        {
+          "fdc_id": "168901",
+          "description": "Pasta, homemade, made with egg, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.9167,
+          "query": "egg whole cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U032",
+      "name": "Turkey breast",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "turkey breast cooked",
+      "required": [
+        "turkey",
+        "breast"
+      ],
+      "avoid": [
+        "deli",
+        "sandwich"
+      ],
+      "candidate": {
+        "fdc_id": "171496",
+        "description": "Turkey, whole, breast, meat only, cooked, roasted",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "turkey breast cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "171496",
+          "description": "Turkey, whole, breast, meat only, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "174516",
+          "description": "Turkey, retail parts, breast, meat only, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "171501",
+          "description": "Turkey breast, pre-basted, meat and skin, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "171492",
+          "description": "Turkey, all classes, breast, meat and skin, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "171529",
+          "description": "Turkey, retail parts, breast, meat and skin, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "174514",
+          "description": "Turkey, retail parts, breast, meat only, with added solution, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "172941",
+          "description": "Turkey breast, sliced, prepackaged",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "turkey breast cooked"
+        },
+        {
+          "fdc_id": "171098",
+          "description": "Turkey, whole, breast, meat only, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "turkey breast cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U033",
+      "name": "Lean beef",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "beef lean cooked",
+      "required": [
+        "beef",
+        "lean"
+      ],
+      "avoid": [
+        "restaurant"
+      ],
+      "candidate": {
+        "fdc_id": "173114",
+        "description": "Beef, ground, 97% lean meat / 3% fat, loaf, cooked, baked",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "beef lean cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173114",
+          "description": "Beef, ground, 97% lean meat / 3% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "174029",
+          "description": "Beef, ground, 95% lean meat / 5% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "174754",
+          "description": "Beef, ground, 93% lean meat / 7% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "169474",
+          "description": "Beef, ground, 70% lean meat / 30% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "171795",
+          "description": "Beef, ground, 90% lean meat / 10% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "171800",
+          "description": "Beef, ground, 80% lean meat / 20% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "171801",
+          "description": "Beef, ground, 75% lean meat / 25% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        },
+        {
+          "fdc_id": "174035",
+          "description": "Beef, ground, 85% lean meat / 15% fat, loaf, cooked, baked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "beef lean cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U034",
+      "name": "Pork tenderloin",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "pork tenderloin cooked",
+      "required": [
+        "pork",
+        "tenderloin"
+      ],
+      "avoid": [
+        "restaurant"
+      ],
+      "candidate": {
+        "fdc_id": "168250",
+        "description": "Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "pork tenderloin cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "168250",
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "168313",
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, cooked, broiled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "167904",
+          "description": "Pork, fresh, loin, tenderloin, separable lean and fat, cooked, broiled",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "167905",
+          "description": "Pork, fresh, loin, tenderloin, separable lean and fat, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "169180",
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, with added solution, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "169185",
+          "description": "Pork, fresh, loin, tenderloin, separable lean and fat, with added solution, cooked, roasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "168249",
+          "description": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "pork tenderloin cooked"
+        },
+        {
+          "fdc_id": "167910",
+          "description": "HORMEL ALWAYS TENDER, Pork Tenderloin, Teriyaki-Flavored",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "pork tenderloin cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U035",
+      "name": "Shrimp",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "shrimp cooked",
+      "required": [
+        "shrimp"
+      ],
+      "avoid": [
+        "breaded"
+      ],
+      "candidate": {
+        "fdc_id": "175180",
+        "description": "Crustaceans, shrimp, cooked",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "shrimp cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "175180",
+          "description": "Crustaceans, shrimp, cooked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "171971",
+          "description": "Crustaceans, shrimp, mixed species, cooked, moist heat (may contain additives to retain moisture)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "173160",
+          "description": "Snacks, shrimp cracker",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "175179",
+          "description": "Crustaceans, shrimp, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "168077",
+          "description": "DENNY'S, golden fried shrimp",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "169008",
+          "description": "APPLEBEE'S, Double Crunch Shrimp",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "171159",
+          "description": "Soup, cream of shrimp, canned, condensed",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        },
+        {
+          "fdc_id": "171972",
+          "description": "Crustaceans, shrimp, mixed species, canned",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "shrimp cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U036",
+      "name": "Sardines canned",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "sardines canned",
+      "required": [
+        "sardine"
+      ],
+      "avoid": [
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "175139",
+        "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 1.6,
+        "query": "sardines canned"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "175139",
+          "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "sardines canned"
+        },
+        {
+          "fdc_id": "175140",
+          "description": "Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "sardines canned"
+        },
+        {
+          "fdc_id": "173578",
+          "description": "Fish oil, sardine",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.1,
+          "query": "sardines canned"
+        },
+        {
+          "fdc_id": "2707033",
+          "description": "Sardine sandwich",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.0,
+          "query": "sardines canned"
+        }
+      ]
+    },
+    {
+      "food_id": "U037",
+      "name": "Milk low-fat",
+      "category": "dairy",
+      "serving_size_g": 240,
+      "query": "milk lowfat",
+      "required": [
+        "milk"
+      ],
+      "avoid": [
+        "chocolate",
+        "evaporated",
+        "dry"
+      ],
+      "candidate": {
+        "fdc_id": "170872",
+        "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "milk lowfat",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170872",
+          "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "milk lowfat",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "170874",
+          "description": "Milk, buttermilk, fluid, cultured, lowfat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "170890",
+          "description": "Milk dessert bar, frozen, made from lowfat milk",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "173463",
+          "description": "Yogurt, vanilla flavor, lowfat milk, sweetened with low calorie sweetener",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "171268",
+          "description": "Milk, lowfat, fluid, 1% milkfat, protein fortified, with added vitamin A and vitamin D",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "170873",
+          "description": "Milk, lowfat, fluid, 1% milkfat, with added nonfat milk solids, vitamin A and vitamin D",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "322228",
+          "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+          "data_type": "foundation_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "milk lowfat"
+        },
+        {
+          "fdc_id": "746772",
+          "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+          "data_type": "foundation_food",
+          "publication_date": "2019-12-16",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "milk lowfat"
+        }
+      ]
+    },
+    {
+      "food_id": "U038",
+      "name": "Cheddar cheese",
+      "category": "dairy",
+      "serving_size_g": 30,
+      "query": "cheese cheddar",
+      "required": [
+        "cheese",
+        "cheddar"
+      ],
+      "avoid": [
+        "sauce"
+      ],
+      "candidate": {
+        "fdc_id": "170899",
+        "description": "Cheese, cheddar, sharp, sliced",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "cheese cheddar"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "170899",
+          "description": "Cheese, cheddar, sharp, sliced",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "173439",
+          "description": "Cheese, low fat, cheddar or colby",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "169901",
+          "description": "Cheese, american cheddar, imitation",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "171295",
+          "description": "Cheese, cheddar, nonfat or fat free",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "173440",
+          "description": "Cheese, low-sodium, cheddar or colby",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "172955",
+          "description": "Sausage, pork and beef, with cheddar cheese, smoked",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "167964",
+          "description": "Snacks, M&M MARS, COMBOS Snacks Cheddar Cheese Pretzel",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        },
+        {
+          "fdc_id": "168089",
+          "description": "Imitation cheese, american or cheddar, low cholesterol",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cheese cheddar"
+        }
+      ]
+    },
+    {
+      "food_id": "U039",
+      "name": "Cottage cheese",
+      "category": "dairy",
+      "serving_size_g": 113,
+      "query": "cottage cheese",
+      "required": [
+        "cottage",
+        "cheese"
+      ],
+      "avoid": [
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "172182",
+        "description": "Cheese, cottage, lowfat, 2% milkfat",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 999.0,
+        "query": "cottage cheese",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "172182",
+          "description": "Cheese, cottage, lowfat, 2% milkfat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 999.0,
+          "query": "cottage cheese",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "169078",
+          "description": "Cheese, cottage, with vegetables",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "173417",
+          "description": "Cheese, cottage, lowfat, 1% milkfat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "172180",
+          "description": "Cheese, cottage, creamed, with fruit",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "172179",
+          "description": "Cheese, cottage, creamed, large or small curd",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "167703",
+          "description": "Cheese, cottage, lowfat, 1% milkfat, lactose reduced",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "167716",
+          "description": "Cheese, cottage, lowfat, 1% milkfat, with vegetables",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        },
+        {
+          "fdc_id": "168114",
+          "description": "Cheese, cottage, lowfat, 1% milkfat, no sodium added",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "cottage cheese"
+        }
+      ]
+    },
+    {
+      "food_id": "U040",
+      "name": "Chickpeas cooked",
+      "category": "legume",
+      "serving_size_g": 100,
+      "query": "chickpeas cooked",
+      "required": [
+        "chickpea"
+      ],
+      "avoid": [
+        "hummus"
+      ],
+      "candidate": {
+        "fdc_id": "173799",
+        "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "chickpeas cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173799",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "173757",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "174288",
+          "description": "Chickpea flour (besan)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "173756",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "173800",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained solids",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "175206",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, solids and liquids",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "173801",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained, rinsed in tap water",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        },
+        {
+          "fdc_id": "175250",
+          "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, solids and liquids, low sodium",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "chickpeas cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U041",
+      "name": "Black beans cooked",
+      "category": "legume",
+      "serving_size_g": 100,
+      "query": "black beans cooked",
+      "required": [
+        "black",
+        "bean"
+      ],
+      "avoid": [
+        "soup"
+      ],
+      "candidate": {
+        "fdc_id": "175237",
+        "description": "Beans, black, mature seeds, cooked, boiled, with salt",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.25,
+        "query": "black beans cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "175237",
+          "description": "Beans, black, mature seeds, cooked, boiled, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "173735",
+          "description": "Beans, black, mature seeds, cooked, boiled, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "175239",
+          "description": "Beans, black turtle, mature seeds, cooked, boiled, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "175187",
+          "description": "Beans, black turtle, mature seeds, cooked, boiled, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.25,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "173734",
+          "description": "Beans, black, mature seeds, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "175186",
+          "description": "Beans, black turtle, mature seeds, raw",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "175188",
+          "description": "Beans, black turtle, mature seeds, canned",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "black beans cooked"
+        },
+        {
+          "fdc_id": "175238",
+          "description": "Beans, black, mature seeds, canned, low sodium",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "black beans cooked"
+        }
+      ]
+    },
+    {
+      "food_id": "U042",
+      "name": "Almonds",
+      "category": "legume",
+      "serving_size_g": 28,
+      "query": "almonds raw",
+      "required": [
+        "almond"
+      ],
+      "avoid": [
+        "butter",
+        "milk"
+      ],
+      "candidate": {
+        "fdc_id": "2346393",
+        "description": "Nuts, almonds, whole, raw",
+        "data_type": "foundation_food",
+        "publication_date": "2022-10-28",
+        "dataset": "foundation",
+        "dataset_priority": 2,
+        "score": 2.25,
+        "query": "almonds raw"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2346393",
+          "description": "Nuts, almonds, whole, raw",
+          "data_type": "foundation_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346564",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346566",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346568",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346570",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346572",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346574",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        },
+        {
+          "fdc_id": "2346576",
+          "description": "Nuts, almonds, raw, whole",
+          "data_type": "sample_food",
+          "publication_date": "2022-10-28",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.25,
+          "query": "almonds raw"
+        }
+      ]
+    },
+    {
+      "food_id": "U043",
+      "name": "Peanut butter",
+      "category": "legume",
+      "serving_size_g": 32,
+      "query": "peanut butter",
+      "required": [
+        "peanut",
+        "butter"
+      ],
+      "avoid": [
+        "cookie"
+      ],
+      "candidate": {
+        "fdc_id": "169869",
+        "description": "Peanut butter, reduced sodium",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "peanut butter"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "169869",
+          "description": "Peanut butter, reduced sodium",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "172458",
+          "description": "Peanut butter, smooth, reduced fat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "172471",
+          "description": "Peanut butter with omega-3, creamy",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "168763",
+          "description": "Candies, REESE'S Peanut Butter Cups",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "174265",
+          "description": "Peanut butter, chunk style, with salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "172469",
+          "description": "Peanut butter, chunk style, without salt",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "167546",
+          "description": "Candies, honey-combed, with peanut butter",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        },
+        {
+          "fdc_id": "169681",
+          "description": "Snacks, granola bars, hard, peanut butter",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "peanut butter"
+        }
+      ]
+    },
+    {
+      "food_id": "U044",
+      "name": "Ham",
+      "category": "processed",
+      "serving_size_g": 85,
+      "query": "ham",
+      "required": [
+        "ham"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "sandwich"
+      ],
+      "candidate": {
+        "fdc_id": "2705878",
+        "description": "Ham",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "ham"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2705878",
+          "description": "Ham",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2705880",
+          "description": "Ham, canned",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2705881",
+          "description": "Ham, ground",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2706508",
+          "description": "Ham croquette",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2706402",
+          "description": "Ham stroganoff",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2705879",
+          "description": "Ham, prosciutto",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2705900",
+          "description": "Pork, ham hocks",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        },
+        {
+          "fdc_id": "2705903",
+          "description": "Baby Toddler ham",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ham"
+        }
+      ]
+    },
+    {
+      "food_id": "U045",
+      "name": "Ramen noodles",
+      "category": "processed",
+      "serving_size_g": 85,
+      "query": "ramen noodles",
+      "required": [
+        "ramen"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "pudding"
+      ],
+      "candidate": {
+        "fdc_id": "2709153",
+        "description": "Ramen bowl, NFS",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 999.0,
+        "query": "ramen noodles",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2709153",
+          "description": "Ramen bowl, NFS",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 999.0,
+          "query": "ramen noodles",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "2709152",
+          "description": "Soup, ramen noodles, water added",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709154",
+          "description": "Ramen bowl with beef",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709156",
+          "description": "Ramen bowl with fish",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709157",
+          "description": "Ramen bowl, vegetarian",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709155",
+          "description": "Ramen bowl with chicken",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709158",
+          "description": "Ramen bowl with meat and egg",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        },
+        {
+          "fdc_id": "2709159",
+          "description": "Ramen bowl, vegetarian with egg",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "ramen noodles"
+        }
+      ]
+    },
+    {
+      "food_id": "U046",
+      "name": "Pepperoni pizza",
+      "category": "processed",
+      "serving_size_g": 140,
+      "query": "pizza pepperoni",
+      "required": [
+        "pizza",
+        "pepperoni"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "bagel"
+      ],
+      "candidate": {
+        "fdc_id": "2708642",
+        "description": "Pizza with pepperoni, stuffed crust",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "pizza pepperoni"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2708642",
+          "description": "Pizza with pepperoni, stuffed crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708635",
+          "description": "Pizza with pepperoni, from frozen, thin crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708637",
+          "description": "Pizza with pepperoni, from frozen, thick crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708636",
+          "description": "Pizza with pepperoni, from frozen, medium crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708643",
+          "description": "Pizza with pepperoni, from school lunch, thin crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708645",
+          "description": "Pizza with pepperoni, from school lunch, thick crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708653",
+          "description": "Pizza, with meat other than pepperoni, stuffed crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        },
+        {
+          "fdc_id": "2708644",
+          "description": "Pizza, with pepperoni, from school lunch, medium crust",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "pizza pepperoni"
+        }
+      ]
+    },
+    {
+      "food_id": "U047",
+      "name": "Salted crackers",
+      "category": "processed",
+      "serving_size_g": 30,
+      "query": "saltine crackers",
+      "required": [
+        "cracker"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "cheese"
+      ],
+      "candidate": {
+        "fdc_id": "2708167",
+        "description": "Crackers, saltine",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "saltine crackers"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2708167",
+          "description": "Crackers, saltine",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708169",
+          "description": "Crackers, saltine, multigrain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708168",
+          "description": "Crackers, saltine, reduced fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708143",
+          "description": "Crackers, saltine, reduced sodium",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708132",
+          "description": "Crackers, NFS",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708293",
+          "description": "Cracker chips",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708159",
+          "description": "Crackers, milk",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "saltine crackers"
+        },
+        {
+          "fdc_id": "2708163",
+          "description": "Crackers, rice",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 1.85,
+          "query": "saltine crackers"
+        }
+      ]
+    },
+    {
+      "food_id": "U048",
+      "name": "Potato chips",
+      "category": "processed",
+      "serving_size_g": 28,
+      "query": "potato chips",
+      "required": [
+        "potato",
+        "chip"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "sweet"
+      ],
+      "candidate": {
+        "fdc_id": "2709421",
+        "description": "Potato chips, NFS",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "potato chips"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2709421",
+          "description": "Potato chips, NFS",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709422",
+          "description": "Potato chips, plain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709438",
+          "description": "Potato chips, unsalted",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709436",
+          "description": "Potato chips, reduced fat",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709443",
+          "description": "Potato chips, popped, NFS",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709434",
+          "description": "Potato chips, baked, plain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709441",
+          "description": "Potato chips, popped, plain",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        },
+        {
+          "fdc_id": "2709426",
+          "description": "Potato chips, other flavored",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "potato chips"
+        }
+      ]
+    },
+    {
+      "food_id": "U049",
+      "name": "Soda",
+      "category": "beverage",
+      "serving_size_g": 355,
+      "query": "carbonated beverage cola",
+      "required": [
+        "carbonated",
+        "beverage"
+      ],
+      "avoid": [
+        "low",
+        "diet",
+        "saccharin"
+      ],
+      "candidate": {
+        "fdc_id": "173199",
+        "description": "Carbonated beverage, cream soda",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 1.7667,
+        "query": "carbonated beverage cola"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173199",
+          "description": "Carbonated beverage, cream soda",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "carbonated beverage cola"
+        },
+        {
+          "fdc_id": "171921",
+          "description": "Carbonated beverage, chocolate-flavored soda",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "carbonated beverage cola"
+        },
+        {
+          "fdc_id": "175113",
+          "description": "Carbonated beverage, low calorie, other than cola or pepper, with sodium saccharin, without caffeine",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 0.5,
+          "query": "carbonated beverage cola"
+        }
+      ]
+    },
+    {
+      "food_id": "U050",
+      "name": "Cookies",
+      "category": "processed",
+      "serving_size_g": 45,
+      "query": "cookies",
+      "required": [
+        "cookie"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "protein"
+      ],
+      "candidate": {
+        "fdc_id": "2707899",
+        "description": "Cookie, NFS",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.35,
+        "query": "cookies"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2707899",
+          "description": "Cookie, NFS",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707900",
+          "description": "Cookie, almond",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707960",
+          "description": "Cookie, raisin",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707968",
+          "description": "Cookie, animal",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707927",
+          "description": "Cookie, coconut",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707929",
+          "description": "Cookie, fig bar",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707930",
+          "description": "Cookie, fortune",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        },
+        {
+          "fdc_id": "2707933",
+          "description": "Cookie, granola",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "cookies"
+        }
+      ]
+    },
+    {
+      "food_id": "U051",
+      "name": "Chocolate cake",
+      "category": "processed",
+      "serving_size_g": 80,
+      "query": "chocolate cake",
+      "required": [
+        "chocolate",
+        "cake"
+      ],
+      "prefer_dataset": "survey",
+      "avoid": [
+        "snack"
+      ],
+      "candidate": {
+        "fdc_id": "2707868",
+        "description": "Cake or cupcake, chocolate, no icing",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 999.0,
+        "query": "chocolate cake",
+        "selection": "manual_override"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2707868",
+          "description": "Cake or cupcake, chocolate, no icing",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 999.0,
+          "query": "chocolate cake",
+          "selection": "manual_override"
+        },
+        {
+          "fdc_id": "2707871",
+          "description": "Cake, chocolate, flourless",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2707869",
+          "description": "Cake or cupcake, German chocolate",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2708067",
+          "description": "Doughnut, cake type, chocolate icing",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2707864",
+          "description": "Cake or cupcake, chocolate with white icing, bakery",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2707893",
+          "description": "Cake or cupcake, white with chocolate icing, bakery",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2707865",
+          "description": "Cake or cupcake, chocolate with white icing, from mix",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        },
+        {
+          "fdc_id": "2707894",
+          "description": "Cake or cupcake, white with chocolate icing, from mix",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.35,
+          "query": "chocolate cake"
+        }
+      ]
+    },
+    {
+      "food_id": "U052",
+      "name": "Sweetened cereal",
+      "category": "grain",
+      "serving_size_g": 40,
+      "query": "breakfast cereal sweetened",
+      "required": [
+        "cereal"
+      ],
+      "avoid": [
+        "bar",
+        "baby"
+      ],
+      "candidate": {
+        "fdc_id": "173927",
+        "description": "Cereals ready-to-eat, MOM'S BEST, Sweetened WHEAT-FULS",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 1.7667,
+        "query": "breakfast cereal sweetened"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "173927",
+          "description": "Cereals ready-to-eat, MOM'S BEST, Sweetened WHEAT-FULS",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.7667,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "171665",
+          "description": "Cereals, WHEATENA, dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "169075",
+          "description": "Cereals ready-to-eat, ALPEN",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "173900",
+          "description": "Cereals, CREAM OF RICE, dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "169076",
+          "description": "Cereals ready-to-eat, FAMILIA",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "172989",
+          "description": "Cereals, QUAKER, Quick Oats, Dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "173916",
+          "description": "Cereals, farina, unenriched, dry",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        },
+        {
+          "fdc_id": "171666",
+          "description": "Cereals, WHEATENA, cooked with water",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.4333,
+          "query": "breakfast cereal sweetened"
+        }
+      ]
+    },
+    {
+      "food_id": "U053",
+      "name": "Bagel",
+      "category": "grain",
+      "serving_size_g": 100,
+      "query": "bagel plain",
+      "required": [
+        "bagel"
+      ],
+      "avoid": [
+        "chip",
+        "pizza"
+      ],
+      "candidate": {
+        "fdc_id": "174899",
+        "description": "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "bagel plain"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "174899",
+          "description": "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "175050",
+          "description": "Bagels, plain, unenriched, with calcium propionate (includes onion, poppy, sesame)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "175049",
+          "description": "Bagels, plain, enriched, without calcium propionate (includes onion, poppy, sesame)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "175051",
+          "description": "Bagels, plain, unenriched, without calcium propionate(includes onion, poppy, sesame)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "174900",
+          "description": "Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame), toasted",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "174901",
+          "description": "Bagels, egg",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "167533",
+          "description": "Bagels, wheat",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "bagel plain"
+        },
+        {
+          "fdc_id": "172666",
+          "description": "Bagels, oat bran",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "bagel plain"
+        }
+      ]
+    },
+    {
+      "food_id": "U054",
+      "name": "Tuna canned in water",
+      "category": "protein",
+      "serving_size_g": 100,
+      "query": "tuna canned water",
+      "required": [
+        "tuna"
+      ],
+      "avoid": [
+        "salad",
+        "sandwich"
+      ],
+      "candidate": {
+        "fdc_id": "175158",
+        "description": "Fish, tuna, white, canned in water, drained solids",
+        "data_type": "sr_legacy_food",
+        "publication_date": "2019-04-01",
+        "dataset": "sr_legacy",
+        "dataset_priority": 1,
+        "score": 2.1,
+        "query": "tuna canned water"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "175158",
+          "description": "Fish, tuna, white, canned in water, drained solids",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "171986",
+          "description": "Fish, tuna, light, canned in water, without salt, drained solids",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "171988",
+          "description": "Fish, tuna, white, canned in water, without salt, drained solids",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "173709",
+          "description": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "333961",
+          "description": "Tuna; chunk light; canned in water; drained solids",
+          "data_type": "sub_sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "333962",
+          "description": "Tuna; chunk light; canned in water; drained solids",
+          "data_type": "sub_sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "334002",
+          "description": "Tuna; chunk light; canned in water; drained solids",
+          "data_type": "sub_sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "tuna canned water"
+        },
+        {
+          "fdc_id": "334003",
+          "description": "Tuna; chunk light; canned in water; drained solids",
+          "data_type": "sub_sample_food",
+          "publication_date": "2019-04-01",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 2.1,
+          "query": "tuna canned water"
+        }
+      ]
+    },
+    {
+      "food_id": "U055",
+      "name": "Edamame",
+      "category": "legume",
+      "serving_size_g": 100,
+      "query": "edamame cooked",
+      "required": [
+        "edamame"
+      ],
+      "avoid": [],
+      "candidate": {
+        "fdc_id": "2707436",
+        "description": "Edamame, cooked",
+        "data_type": "survey_fndds_food",
+        "publication_date": "2022-10-28",
+        "dataset": "survey",
+        "dataset_priority": 3,
+        "score": 2.15,
+        "query": "edamame cooked"
+      },
+      "top_candidates": [
+        {
+          "fdc_id": "2707436",
+          "description": "Edamame, cooked",
+          "data_type": "survey_fndds_food",
+          "publication_date": "2022-10-28",
+          "dataset": "survey",
+          "dataset_priority": 3,
+          "score": 2.15,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "168411",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "168410",
+          "description": "Edamame, frozen, unprepared",
+          "data_type": "sr_legacy_food",
+          "publication_date": "2019-04-01",
+          "dataset": "sr_legacy",
+          "dataset_priority": 1,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "2758981",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "foundation_food",
+          "publication_date": "2026-04-30",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "2759056",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "sample_food",
+          "publication_date": "2026-04-30",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "2759058",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "sample_food",
+          "publication_date": "2026-04-30",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "2759060",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "sample_food",
+          "publication_date": "2026-04-30",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "edamame cooked"
+        },
+        {
+          "fdc_id": "2759062",
+          "description": "Edamame, frozen, prepared",
+          "data_type": "sample_food",
+          "publication_date": "2026-04-30",
+          "dataset": "foundation",
+          "dataset_priority": 2,
+          "score": 1.6,
+          "query": "edamame cooked"
+        }
+      ]
+    }
+  ]
+}

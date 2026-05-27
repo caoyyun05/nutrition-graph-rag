@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Banana", "servings": 1},
+    {"name": "Spinach", "servings": 2},
+    {"name": "Avocado", "servings": 0.5},
+    {"name": "Low-fat yogurt", "servings": 1},
+    {"name": "Sweet potato baked", "servings": 1}
+  ],
+  "rationale": "These foods are rich in potassium and support blood pressure management in hypertension."
+}

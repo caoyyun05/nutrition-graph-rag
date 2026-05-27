@@ -1,0 +1,10 @@
+{
+  "recommended_foods": [
+    {"name": "Apple", "servings": 1},
+    {"name": "Brown rice", "servings": 0.5},
+    {"name": "Chicken breast", "servings": 1},
+    {"name": "Romaine lettuce", "servings": 1},
+    {"name": "Strawberries", "servings": 0.5}
+  ],
+  "rationale": "Low in sodium, potassium, and phosphorus to manage CKD and reduce hyperkalemia risk."
+}
